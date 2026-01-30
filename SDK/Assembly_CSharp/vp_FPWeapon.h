@@ -1,0 +1,190 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "vp_Component.h"
+namespace Assembly_CSharp { struct WeaponSystem; };
+namespace Assembly_CSharp { struct vp_FPCamera; };
+namespace Assembly_CSharp { struct vp_FPInput; };
+namespace UnityEngine_CoreModule::UnityEngine { struct GameObject; };
+namespace UnityEngine_PhysicsModule::UnityEngine { struct CharacterController; };
+#include "..\mscorlib\System_Single.h"
+namespace mscorlib::System { struct Single; };
+#include "..\UnityEngine_CoreModule\UnityEngine_Vector2.h"
+namespace UnityEngine_CoreModule::UnityEngine { struct Vector2; };
+#include "..\UnityEngine_CoreModule\UnityEngine_Vector3.h"
+namespace UnityEngine_CoreModule::UnityEngine { struct Vector3; };
+#include "..\mscorlib\System_Int32.h"
+namespace mscorlib::System { struct Int32; };
+namespace Assembly_CSharp { struct vp_Spring; };
+namespace UnityEngine_CoreModule::UnityEngine { struct Transform; };
+#include "..\mscorlib\System_Boolean.h"
+namespace mscorlib::System { struct Boolean; };
+#include "..\UnityEngine_CoreModule\UnityEngine_Vector4.h"
+namespace UnityEngine_CoreModule::UnityEngine { struct Vector4; };
+namespace UnityEngine_AudioModule::UnityEngine { struct AudioClip; };
+namespace Assembly_CSharp { struct Sound; };
+namespace UnityEngine_AnimationModule::UnityEngine { struct AnimationClip; };
+namespace UnityEngine_CoreModule::UnityEngine { struct Object; };
+namespace mscorlib::System::Collections::Generic { template <typename T> struct List_1; };
+namespace Assembly_CSharp { struct vp_Timer_Handle; };
+namespace Assembly_CSharp { struct vp_FPPlayerEventHandler; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+
+namespace Assembly_CSharp
+{
+	struct vp_FPWeapon : Assembly_CSharp::vp_Component
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		Assembly_CSharp::WeaponSystem* m_WeaponSystem;
+		Assembly_CSharp::vp_FPCamera* m_FPSCamera;
+		Assembly_CSharp::vp_FPInput* m_Input;
+		UnityEngine_CoreModule::UnityEngine::GameObject* WeaponPrefab;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_WeaponModel;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_LeftHandModel;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_RightHandModel;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_Face;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_Top;
+		UnityEngine_PhysicsModule::UnityEngine::CharacterController* Controller;
+		float RenderingZoomDamping;
+		float m_FinalZoomTime;
+		float RenderingFieldOfView;
+		UnityEngine_CoreModule::UnityEngine::Vector2 RenderingClippingPlanes;
+		float RenderingZScale;
+		UnityEngine_CoreModule::UnityEngine::Vector3 PositionOffset;
+		float PositionSpringStiffness;
+		float PositionSpringDamping;
+		float PositionFallRetract;
+		float PositionPivotSpringStiffness;
+		float PositionPivotSpringDamping;
+		float PositionSpring2Stiffness;
+		float PositionSpring2Damping;
+		float PositionKneeling;
+		int32_t PositionKneelingSoftness;
+		UnityEngine_CoreModule::UnityEngine::Vector3 PositionWalkSlide;
+		UnityEngine_CoreModule::UnityEngine::Vector3 PositionPivot;
+		UnityEngine_CoreModule::UnityEngine::Vector3 RotationPivot;
+		float PositionInputVelocityScale;
+		float PositionMaxInputVelocity;
+		Assembly_CSharp::vp_Spring* m_PositionSpring;
+		Assembly_CSharp::vp_Spring* m_PositionSpring2;
+		Assembly_CSharp::vp_Spring* m_PositionPivotSpring;
+		Assembly_CSharp::vp_Spring* m_RotationPivotSpring;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_WeaponGroup;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_Pivot;
+		UnityEngine_CoreModule::UnityEngine::Transform* m_WeaponGroupTransform;
+		UnityEngine_CoreModule::UnityEngine::Vector3 RotationOffset;
+		float RotationSpringStiffness;
+		float RotationSpringDamping;
+		float RotationPivotSpringStiffness;
+		float RotationPivotSpringDamping;
+		float RotationSpring2Stiffness;
+		float RotationSpring2Damping;
+		float RotationKneeling;
+		int32_t RotationKneelingSoftness;
+		UnityEngine_CoreModule::UnityEngine::Vector3 RotationLookSway;
+		UnityEngine_CoreModule::UnityEngine::Vector3 RotationStrafeSway;
+		UnityEngine_CoreModule::UnityEngine::Vector3 RotationFallSway;
+		float RotationSlopeSway;
+		float RotationInputVelocityScale;
+		float RotationMaxInputVelocity;
+		Assembly_CSharp::vp_Spring* m_RotationSpring;
+		Assembly_CSharp::vp_Spring* m_RotationSpring2;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_SwayVel;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_FallSway;
+		float RetractionDistance;
+		UnityEngine_CoreModule::UnityEngine::Vector2 RetractionOffset;
+		float RetractionRelaxSpeed;
+		bool m_DrawRetractionDebugLine;
+		float ShakeSpeed;
+		UnityEngine_CoreModule::UnityEngine::Vector3 ShakeAmplitude;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_Shake;
+		UnityEngine_CoreModule::UnityEngine::Vector4 BobRate;
+		UnityEngine_CoreModule::UnityEngine::Vector4 BobAmplitude;
+		float BobInputVelocityScale;
+		float BobMaxInputVelocity;
+		bool BobRequireGroundContact;
+		float m_LastBobSpeed;
+		UnityEngine_CoreModule::UnityEngine::Vector4 m_CurrentBobAmp;
+		UnityEngine_CoreModule::UnityEngine::Vector4 m_CurrentBobVal;
+		float m_BobSpeed;
+		UnityEngine_CoreModule::UnityEngine::Vector3 StepPositionForce;
+		UnityEngine_CoreModule::UnityEngine::Vector3 StepRotationForce;
+		int32_t StepSoftness;
+		float StepMinVelocity;
+		float StepPositionBalance;
+		float StepRotationBalance;
+		float StepForceScale;
+		float m_LastUpBob;
+		bool m_BobWasElevating;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_PosStep;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_RotStep;
+		UnityEngine_AudioModule::UnityEngine::AudioClip* SoundWield;
+		UnityEngine_AudioModule::UnityEngine::AudioClip* SoundUnWield;
+		Assembly_CSharp::Sound* sound;
+		UnityEngine_AnimationModule::UnityEngine::AnimationClip* AnimationWield;
+		UnityEngine_AnimationModule::UnityEngine::AnimationClip* AnimationUnWield;
+		mscorlib::System::Collections::Generic::List_1<UnityEngine_CoreModule::UnityEngine::Object>* AnimationAmbient;
+		mscorlib::System::Collections::Generic::List_1<mscorlib::System::Boolean>* m_AmbAnimPlayed;
+		UnityEngine_CoreModule::UnityEngine::Vector2 AmbientInterval;
+		int32_t m_CurrentAmbientAnimation;
+		Assembly_CSharp::vp_Timer_Handle* m_AnimationAmbientTimer;
+		UnityEngine_CoreModule::UnityEngine::Vector3 PositionExitOffset;
+		UnityEngine_CoreModule::UnityEngine::Vector3 RotationExitOffset;
+		bool m_Wielded;
+		UnityEngine_CoreModule::UnityEngine::Vector2 m_MouseMove;
+		int32_t WeaponID;
+		Assembly_CSharp::vp_FPPlayerEventHandler* m_Player;
+		bool get_Wielded();
+		UnityEngine_CoreModule::UnityEngine::GameObject* get_WeaponModel();
+		UnityEngine_CoreModule::UnityEngine::Vector3 get_DefaultPosition();
+		UnityEngine_CoreModule::UnityEngine::Vector3 get_DefaultRotation();
+		bool get_DrawRetractionDebugLine();
+		void set_DrawRetractionDebugLine(bool value);
+		Assembly_CSharp::vp_FPPlayerEventHandler* get_Player();
+		void Awake();
+		void Start();
+		void InstantiateWeaponModel();
+		void Init();
+		void Update();
+		void FixedUpdate();
+		void AddForce2(UnityEngine_CoreModule::UnityEngine::Vector3 positional, UnityEngine_CoreModule::UnityEngine::Vector3 angular);
+		void AddForce2(float xPos, float yPos, float zPos, float xRot, float yRot, float zRot);
+		void AddForce(UnityEngine_CoreModule::UnityEngine::Vector3 force);
+		void AddForce(float x, float y, float z);
+		void AddForce(UnityEngine_CoreModule::UnityEngine::Vector3 positional, UnityEngine_CoreModule::UnityEngine::Vector3 angular);
+		void AddForce(float xPos, float yPos, float zPos, float xRot, float yRot, float zRot);
+		void AddSoftForce(UnityEngine_CoreModule::UnityEngine::Vector3 force, int32_t frames);
+		void AddSoftForce(float x, float y, float z, int32_t frames);
+		void AddSoftForce(UnityEngine_CoreModule::UnityEngine::Vector3 positional, UnityEngine_CoreModule::UnityEngine::Vector3 angular, int32_t frames);
+		void AddSoftForce(float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, int32_t frames);
+		void UpdateMouseLook();
+		void UpdateShakes();
+		void UpdateRetraction(bool firstIteration);
+		void UpdateBob();
+		void UpdateEarthQuake();
+		void UpdateSprings();
+		void UpdateStep();
+		void UpdateSwaying();
+		void ResetSprings(float positionReset, float rotationReset, float positionPauseTime, float rotationPauseTime);
+		void Refresh();
+		void Activate();
+		void Deactivate();
+		void SnapPivot();
+		void SetPivotVisible(bool visible);
+		void SnapToExit();
+		void SnapSprings();
+		void StopSprings();
+		void Wield(bool showWeapon);
+		void ScheduleAmbientAnimation();
+		void OnMessage_FallImpact(float impact);
+		void OnMessage_HeadImpact(float impact);
+		void OnMessage_GroundStomp(float impact);
+		void OnMessage_BombShake(float impact);
+		void _ctor();
+		void _ScheduleAmbientAnimation_b__146_0();
+	};
+}
+

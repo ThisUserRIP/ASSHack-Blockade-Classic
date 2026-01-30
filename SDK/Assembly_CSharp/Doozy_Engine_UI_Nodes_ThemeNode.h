@@ -1,0 +1,35 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "Doozy_Engine_Nody_Models_Node.h"
+#include "..\mscorlib\System_Guid.h"
+namespace mscorlib::System { struct Guid; };
+#include "..\mscorlib\System_Byte.h"
+namespace mscorlib::System { struct Byte; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+namespace Assembly_CSharp::Doozy::Engine::Nody::Models { struct Node; };
+namespace Assembly_CSharp::Doozy::Engine::Nody::Models { struct Connection; };
+
+namespace Assembly_CSharp::Doozy::Engine::UI::Nodes
+{
+	struct ThemeNode : Assembly_CSharp::Doozy::Engine::Nody::Models::Node
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		mscorlib::System::Guid ThemeId;
+		mscorlib::System::Guid VariantId;
+		IL2CPP::Array<uint8_t>* ThemeIdSerializedGuid;
+		IL2CPP::Array<uint8_t>* VariantIdSerializedGuid;
+		void OnBeforeSerialize();
+		void OnAfterDeserialize();
+		void OnCreate();
+		void AddDefaultSockets();
+		void CopyNode(Assembly_CSharp::Doozy::Engine::Nody::Models::Node* original);
+		void OnEnter(Assembly_CSharp::Doozy::Engine::Nody::Models::Node* previousActiveNode, Assembly_CSharp::Doozy::Engine::Nody::Models::Connection* connection);
+		void ExecuteActions();
+		void _ctor();
+	};
+}
+

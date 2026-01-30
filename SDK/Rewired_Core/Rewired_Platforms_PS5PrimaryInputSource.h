@@ -1,0 +1,9 @@
+#pragma once
+namespace Rewired_Core::Rewired::Platforms
+{
+	enum struct PS5PrimaryInputSource : int32_t
+	{
+		Native = static_cast<int32_t>(0x0),
+	};
+}
+

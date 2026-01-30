@@ -1,0 +1,5 @@
+#include "_Module_.h"
+#include "Facebook_Unity_Settings_FacebookSettings.h"
+#include "Facebook_Unity_Settings_FacebookSettings_OnChangeCallback.h"
+#include "Facebook_Unity_Settings_FacebookSettings_UrlSchemes.h"
+#include "Facebook_Unity_Settings_FacebookSettings___c.h"

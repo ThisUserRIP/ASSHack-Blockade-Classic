@@ -1,0 +1,6 @@
+#include "_Module_.h"
+#include "Il2CppDummyDll_AddressAttribute.h"
+#include "Il2CppDummyDll_FieldOffsetAttribute.h"
+#include "Il2CppDummyDll_AttributeAttribute.h"
+#include "Il2CppDummyDll_MetadataOffsetAttribute.h"
+#include "Il2CppDummyDll_TokenAttribute.h"

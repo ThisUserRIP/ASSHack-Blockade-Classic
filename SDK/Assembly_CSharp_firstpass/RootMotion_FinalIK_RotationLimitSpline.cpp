@@ -1,0 +1,92 @@
+#include "RootMotion_FinalIK_RotationLimitSpline.h"
+
+IL2CPP::Il2CppClass* Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIL2CppClass("Assembly-CSharp-firstpass.dll", "RootMotion.FinalIK", "RotationLimitSpline");
+	return il2cppclass;
+}
+mscorlib::System::Type* Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+void Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::OpenUserManual()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "OpenUserManual");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}
+void Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::OpenScriptReference()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "OpenScriptReference");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}
+void Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::SupportGroup()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "SupportGroup");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}
+void Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::ASThread()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "ASThread");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}
+void Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::SetSpline(IL2CPP::Array<UnityEngine_CoreModule::UnityEngine::Keyframe>* keyframes)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "SetSpline", std::vector<std::string> { "UnityEngine.Keyframe[]" });
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)keyframes;
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+}
+UnityEngine_CoreModule::UnityEngine::Quaternion Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::LimitRotation(UnityEngine_CoreModule::UnityEngine::Quaternion rotation)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "LimitRotation", std::vector<std::string> { "UnityEngine.Quaternion" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&rotation;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		UnityEngine_CoreModule::UnityEngine::Quaternion ret;
+		std::memset(&ret, 0, sizeof(UnityEngine_CoreModule::UnityEngine::Quaternion));
+		return ret;
+	}
+	return static_cast<UnityEngine_CoreModule::UnityEngine::Quaternion>(*(UnityEngine_CoreModule::UnityEngine::Quaternion*)il2cpp_object_unbox(returnValue));
+}
+UnityEngine_CoreModule::UnityEngine::Quaternion Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::LimitSwing(UnityEngine_CoreModule::UnityEngine::Quaternion rotation)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "LimitSwing", std::vector<std::string> { "UnityEngine.Quaternion" });
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&rotation;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(address, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		UnityEngine_CoreModule::UnityEngine::Quaternion ret;
+		std::memset(&ret, 0, sizeof(UnityEngine_CoreModule::UnityEngine::Quaternion));
+		return ret;
+	}
+	return static_cast<UnityEngine_CoreModule::UnityEngine::Quaternion>(*(UnityEngine_CoreModule::UnityEngine::Quaternion*)il2cpp_object_unbox(returnValue));
+}
+void Assembly_CSharp_firstpass::RootMotion::FinalIK::RotationLimitSpline::_ctor()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".ctor");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}

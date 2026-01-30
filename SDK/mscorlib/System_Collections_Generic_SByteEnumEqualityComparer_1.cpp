@@ -1,0 +1,2 @@
+#include "System_Collections_Generic_SByteEnumEqualityComparer_1.h"
+

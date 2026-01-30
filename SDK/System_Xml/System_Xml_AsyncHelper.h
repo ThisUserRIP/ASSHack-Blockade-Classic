@@ -1,0 +1,32 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "..\mscorlib\System_Object.h"
+namespace mscorlib::System::Threading::Tasks { struct Task; };
+#include "..\mscorlib\System_Boolean.h"
+namespace mscorlib::System { struct Boolean; };
+namespace mscorlib::System::Threading::Tasks { template <typename TResult> struct Task_1; };
+#include "..\mscorlib\System_Int32.h"
+namespace mscorlib::System { struct Int32; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+
+namespace System_Xml::System::Xml
+{
+	struct AsyncHelper : mscorlib::System::Object
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		struct StaticFields
+		{
+			mscorlib::System::Threading::Tasks::Task* DoneTask;
+			mscorlib::System::Threading::Tasks::Task_1<mscorlib::System::Boolean>* DoneTaskTrue;
+			mscorlib::System::Threading::Tasks::Task_1<mscorlib::System::Boolean>* DoneTaskFalse;
+			mscorlib::System::Threading::Tasks::Task_1<mscorlib::System::Int32>* DoneTaskZero;
+		};
+		static StaticFields* GetStaticFields() { return reinterpret_cast<StaticFields*>(GetIl2CppClass()->static_fields); }
+		static void _cctor();
+	};
+}
+

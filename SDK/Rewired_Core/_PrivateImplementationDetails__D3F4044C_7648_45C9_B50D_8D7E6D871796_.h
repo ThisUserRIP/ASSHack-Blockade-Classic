@@ -1,0 +1,37 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "..\mscorlib\System_Object.h"
+#include "_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_528.h"
+namespace Rewired_Core { struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_528; };
+#include "_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_1024.h"
+namespace Rewired_Core { struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_1024; };
+#include "_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_16688.h"
+namespace Rewired_Core { struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_16688; };
+#include "_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_13688.h"
+namespace Rewired_Core { struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_13688; };
+#include "_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_30352.h"
+namespace Rewired_Core { struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_30352; };
+#include "_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_288.h"
+namespace Rewired_Core { struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_288; };
+
+namespace Rewired_Core
+{
+	struct _PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796_ : mscorlib::System::Object
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		struct StaticFields
+		{
+			Rewired_Core::_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_528 __method0x60006e7_1;
+			Rewired_Core::_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_1024 __method0x60031e4_1;
+			Rewired_Core::_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_16688 __method0x6002556_1;
+			Rewired_Core::_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_13688 __method0x6002557_1;
+			Rewired_Core::_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_30352 __method0x6002558_1;
+			Rewired_Core::_PrivateImplementationDetails__D3F4044C_7648_45C9_B50D_8D7E6D871796____StaticArrayInitTypeSize_288 __method0x6003551_1;
+		};
+		static StaticFields* GetStaticFields() { return reinterpret_cast<StaticFields*>(GetIl2CppClass()->static_fields); }
+	};
+}
+

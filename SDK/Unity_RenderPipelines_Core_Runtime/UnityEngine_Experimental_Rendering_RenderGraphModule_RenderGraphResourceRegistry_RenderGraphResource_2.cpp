@@ -1,0 +1,2 @@
+#include "UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraphResourceRegistry_RenderGraphResource_2.h"
+

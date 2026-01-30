@@ -1,0 +1,2 @@
+#include "UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraphResourcePool_1_ResourceLogInfo.h"
+

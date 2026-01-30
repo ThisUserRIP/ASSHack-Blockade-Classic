@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Hack.cpp" />
+    <ClCompile Include="Il2Cpp\Il2Cpp.cpp">
+      <Filter>Il2Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_String.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Object.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Type.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\APIScript.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="SDK\mscorlib\System_Reflection_MethodInfo.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_GameObject.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Transform.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Camera.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Vector3.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_PhysicsModule\UnityEngine_Physics.cpp">
+      <Filter>SDK\UnityEngine_PhysicsModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_IMGUIModule\UnityEngine_Event.cpp">
+      <Filter>SDK\UnityEngine_IMGUIModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Component.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Object.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\HitBoxData.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\CONST.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\WeaponSystem.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\GM.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\GameController.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Client.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_IMGUIModule\UnityEngine_GUIStyle.cpp">
+      <Filter>SDK\UnityEngine_IMGUIModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_IMGUIModule\UnityEngine_GUISkin.cpp">
+      <Filter>SDK\UnityEngine_IMGUIModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_IMGUIModule\UnityEngine_GUI.cpp">
+      <Filter>SDK\UnityEngine_IMGUIModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_IMGUIModule\UnityEngine_GUIStyleState.cpp">
+      <Filter>SDK\UnityEngine_IMGUIModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Color.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Time.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Screen.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPWeaponShooter.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPCamera.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Quaternion.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\ObscuredInt.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\PlayerProfile.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\SEND_PACKET.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\ItemsDB.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Texture2D.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_PhysicsModule\UnityEngine_Collider.cpp">
+      <Filter>SDK\UnityEngine_PhysicsModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_Activity.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_Shooter.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPWeaponReloader.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPWeaponHandler.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Arrow.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Handler.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BotPoseController.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPInput.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_WeaponAnimator.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Map.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Mathf.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_RenderSettings.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Random.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\ConnectionInfo.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_Timer_Handle.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_Timer.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_Component.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPWeapon.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Vector2.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_IMGUIModule\UnityEngine_GUIUtility.cpp">
+      <Filter>SDK\UnityEngine_IMGUIModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Text_Encoding.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Security_Cryptography_HashAlgorithm.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Security_Cryptography_MD5CryptoServiceProvider.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Security_Cryptography_MD5.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_IO_Stream.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\System\System_Net_HttpWebResponse.cpp">
+      <Filter>SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\System\System_Net_HttpWebRequest.cpp">
+      <Filter>SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\System\System_Net_WebRequest.cpp">
+      <Filter>SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Byte.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="api.cpp" />
+    <ClCompile Include="SDK\mscorlib\System_UInt64.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="XHideDll.cpp" />
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx11.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_SkinnedMeshRenderer.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Material.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Shader.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Renderer.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\resource_manager.cc">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\custom.cc">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\EntManager.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\ZipLoader.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_UnityWebRequestWWWModule\UnityEngine_WWW.cpp">
+      <Filter>SDK\UnityEngine_UnityWebRequestWWWModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Char.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_IO_StreamReader.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\System\System_Net_WebHeaderCollection.cpp">
+      <Filter>SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\System\System_Uri.cpp">
+      <Filter>SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\WEB_HANDLER.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BestHTTP_OnRequestFinishedDelegate.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Inv.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_MonoBehaviour.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BestHTTP_HTTPRequest.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Behaviour.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BotEquipmentContainer.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Vector3i.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Health.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\RagDollManager.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BestHTTP_HTTPResponse.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BestHTTP_Caching_HTTPCacheService.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BestHTTP_Caching_HTTPCacheFileInfo.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Reflection_MemberInfo.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Int32.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Enum.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\ServerList.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Texture.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\BotsController.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_PhysicsModule\UnityEngine_Rigidbody.cpp">
+      <Filter>SDK\UnityEngine_PhysicsModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\VehicleManager.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Console.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_IO_Directory.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_IO_DirectoryInfo.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Collections_Generic_List_1.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_Collections_Generic_IEnumerable_1.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\Microsoft_Win32_RegistryKey.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\Microsoft_Win32_Registry.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_IO_FileStream.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mscorlib\System_IO_File.cpp">
+      <Filter>SDK\mscorlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_stdlib.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\GUIManager.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\GUI3.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\SoundManager.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\SkinManager.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Rect.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\MiniMap.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\Minigun.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Assembly_CSharp\vp_FPController.cpp">
+      <Filter>SDK\Assembly_CSharp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\UnityEngine_CoreModule\UnityEngine_Random.cpp">
+      <Filter>SDK\UnityEngine_CoreModule</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Il2Cpp">
+      <UniqueIdentifier>{e8fc4890-a0d2-40b6-933b-3f8c2dd8ad58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{974ea424-fbb8-4c9e-a487-dfcf79cf2a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\mscorlib">
+      <UniqueIdentifier>{a5b22f7b-59b0-4e78-9de9-4bf1c0bb036c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Assembly_CSharp">
+      <UniqueIdentifier>{617da9cf-dd7b-4cfe-8168-addca0301b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\UnityEngine_CoreModule">
+      <UniqueIdentifier>{c413039d-49bf-48fb-b498-d9addd8a6f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\UnityEngine_PhysicsModule">
+      <UniqueIdentifier>{0d79de3c-a3ba-48c2-ad62-b1e1f77aa7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\UnityEngine_IMGUIModule">
+      <UniqueIdentifier>{c15b39c1-9692-434f-b9d8-0b9bce5e0fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\System">
+      <UniqueIdentifier>{87dbb1f3-2b5b-4891-b083-618ddc372304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{8d91be1c-033f-4298-aee8-9fde0973789b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{9dddd428-c818-458c-bd8c-a39ec50e9365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\UnityEngine_UnityWebRequestWWWModule">
+      <UniqueIdentifier>{3039ec8b-7d74-4a30-ab81-1e63e3366c3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Il2Cpp\il2cpp-api-functions.h">
+      <Filter>Il2Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2Cpp\Il2Cpp-extern-functions.h">
+      <Filter>Il2Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2Cpp\il2cpp-tabledefs.h">
+      <Filter>Il2Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2Cpp\il2cpp-types.h">
+      <Filter>Il2Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="api.h" />
+    <ClInclude Include="Menu\menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\icons.hh">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\logo.hh">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\main.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\custom.hh">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\resource_manager.hh">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\stb_image.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

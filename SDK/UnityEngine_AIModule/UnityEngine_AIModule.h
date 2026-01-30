@@ -1,0 +1,6 @@
+#include "_Module_.h"
+#include "UnityEngine_AI_NavMeshPathStatus.h"
+#include "UnityEngine_AI_NavMeshPath.h"
+#include "UnityEngine_AI_NavMeshHit.h"
+#include "UnityEngine_AI_NavMesh.h"
+#include "UnityEngine_AI_NavMesh_OnNavMeshPreUpdate.h"

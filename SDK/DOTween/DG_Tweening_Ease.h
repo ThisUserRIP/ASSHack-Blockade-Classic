@@ -1,0 +1,46 @@
+#pragma once
+namespace DOTween::DG::Tweening
+{
+	enum struct Ease : int32_t
+	{
+		Unset = static_cast<int32_t>(0x0),
+		Linear = static_cast<int32_t>(0x1),
+		InSine = static_cast<int32_t>(0x2),
+		OutSine = static_cast<int32_t>(0x3),
+		InOutSine = static_cast<int32_t>(0x4),
+		InQuad = static_cast<int32_t>(0x5),
+		OutQuad = static_cast<int32_t>(0x6),
+		InOutQuad = static_cast<int32_t>(0x7),
+		InCubic = static_cast<int32_t>(0x8),
+		OutCubic = static_cast<int32_t>(0x9),
+		InOutCubic = static_cast<int32_t>(0xA),
+		InQuart = static_cast<int32_t>(0xB),
+		OutQuart = static_cast<int32_t>(0xC),
+		InOutQuart = static_cast<int32_t>(0xD),
+		InQuint = static_cast<int32_t>(0xE),
+		OutQuint = static_cast<int32_t>(0xF),
+		InOutQuint = static_cast<int32_t>(0x10),
+		InExpo = static_cast<int32_t>(0x11),
+		OutExpo = static_cast<int32_t>(0x12),
+		InOutExpo = static_cast<int32_t>(0x13),
+		InCirc = static_cast<int32_t>(0x14),
+		OutCirc = static_cast<int32_t>(0x15),
+		InOutCirc = static_cast<int32_t>(0x16),
+		InElastic = static_cast<int32_t>(0x17),
+		OutElastic = static_cast<int32_t>(0x18),
+		InOutElastic = static_cast<int32_t>(0x19),
+		InBack = static_cast<int32_t>(0x1A),
+		OutBack = static_cast<int32_t>(0x1B),
+		InOutBack = static_cast<int32_t>(0x1C),
+		InBounce = static_cast<int32_t>(0x1D),
+		OutBounce = static_cast<int32_t>(0x1E),
+		InOutBounce = static_cast<int32_t>(0x1F),
+		Flash = static_cast<int32_t>(0x20),
+		InFlash = static_cast<int32_t>(0x21),
+		OutFlash = static_cast<int32_t>(0x22),
+		InOutFlash = static_cast<int32_t>(0x23),
+		INTERNAL_Zero = static_cast<int32_t>(0x24),
+		INTERNAL_Custom = static_cast<int32_t>(0x25),
+	};
+}
+

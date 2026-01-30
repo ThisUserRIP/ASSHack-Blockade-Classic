@@ -1,0 +1,45 @@
+#pragma once
+namespace mscorlib::System::Diagnostics::Tracing
+{
+	enum struct TraceLoggingDataType : int32_t
+	{
+		Nil = static_cast<int32_t>(0x0),
+		Utf16String = static_cast<int32_t>(0x1),
+		MbcsString = static_cast<int32_t>(0x2),
+		Int8 = static_cast<int32_t>(0x3),
+		UInt8 = static_cast<int32_t>(0x4),
+		Int16 = static_cast<int32_t>(0x5),
+		UInt16 = static_cast<int32_t>(0x6),
+		Int32 = static_cast<int32_t>(0x7),
+		UInt32 = static_cast<int32_t>(0x8),
+		Int64 = static_cast<int32_t>(0x9),
+		UInt64 = static_cast<int32_t>(0xA),
+		Float = static_cast<int32_t>(0xB),
+		Double = static_cast<int32_t>(0xC),
+		Boolean32 = static_cast<int32_t>(0xD),
+		Binary = static_cast<int32_t>(0xE),
+		Guid = static_cast<int32_t>(0xF),
+		FileTime = static_cast<int32_t>(0x11),
+		SystemTime = static_cast<int32_t>(0x12),
+		HexInt32 = static_cast<int32_t>(0x14),
+		HexInt64 = static_cast<int32_t>(0x15),
+		CountedUtf16String = static_cast<int32_t>(0x16),
+		CountedMbcsString = static_cast<int32_t>(0x17),
+		Struct = static_cast<int32_t>(0x18),
+		Char16 = static_cast<int32_t>(0x206),
+		Char8 = static_cast<int32_t>(0x204),
+		Boolean8 = static_cast<int32_t>(0x304),
+		HexInt8 = static_cast<int32_t>(0x404),
+		HexInt16 = static_cast<int32_t>(0x406),
+		Utf16Xml = static_cast<int32_t>(0xB01),
+		MbcsXml = static_cast<int32_t>(0xB02),
+		CountedUtf16Xml = static_cast<int32_t>(0xB16),
+		CountedMbcsXml = static_cast<int32_t>(0xB17),
+		Utf16Json = static_cast<int32_t>(0xC01),
+		MbcsJson = static_cast<int32_t>(0xC02),
+		CountedUtf16Json = static_cast<int32_t>(0xC16),
+		CountedMbcsJson = static_cast<int32_t>(0xC17),
+		HResult = static_cast<int32_t>(0xF07),
+	};
+}
+

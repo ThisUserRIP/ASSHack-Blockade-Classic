@@ -1,0 +1,6 @@
+#include "_Module_.h"
+#include "UnityEngine_AssetBundle.h"
+#include "UnityEngine_AssetBundleCreateRequest.h"
+#include "UnityEngine_AssetBundleManifest.h"
+#include "UnityEngine_AssetBundleRecompressOperation.h"
+#include "UnityEngine_AssetBundleRequest.h"

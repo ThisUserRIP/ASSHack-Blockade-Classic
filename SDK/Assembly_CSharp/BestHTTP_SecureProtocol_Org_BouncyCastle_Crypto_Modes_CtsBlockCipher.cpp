@@ -1,0 +1,119 @@
+#include "BestHTTP_SecureProtocol_Org_BouncyCastle_Crypto_Modes_CtsBlockCipher.h"
+
+IL2CPP::Il2CppClass* Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIL2CppClass("Assembly-CSharp.dll", "BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes", "CtsBlockCipher");
+	return il2cppclass;
+}
+mscorlib::System::Type* Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+void Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::_ctor(Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::IBlockCipher* cipher)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".ctor", std::vector<std::string> { "BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBlockCipher" });
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)cipher;
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+}
+int32_t Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::GetUpdateOutputSize(int32_t length)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "GetUpdateOutputSize", std::vector<std::string> { "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&length;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+int32_t Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::GetOutputSize(int32_t length)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "GetOutputSize", std::vector<std::string> { "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&length;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+int32_t Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::ProcessByte(uint8_t input, IL2CPP::Array<uint8_t>* output, int32_t outOff)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "ProcessByte", std::vector<std::string> { "System.Byte", "System.Byte[]", "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[3];
+	params[0] = (intptr_t)&input;
+	params[1] = (intptr_t)output;
+	params[2] = (intptr_t)&outOff;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+int32_t Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::ProcessBytes(IL2CPP::Array<uint8_t>* input, int32_t inOff, int32_t length, IL2CPP::Array<uint8_t>* output, int32_t outOff)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "ProcessBytes", std::vector<std::string> { "System.Byte[]", "System.Int32", "System.Int32", "System.Byte[]", "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[5];
+	params[0] = (intptr_t)input;
+	params[1] = (intptr_t)&inOff;
+	params[2] = (intptr_t)&length;
+	params[3] = (intptr_t)output;
+	params[4] = (intptr_t)&outOff;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+int32_t Assembly_CSharp::BestHTTP::SecureProtocol::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::DoFinal(IL2CPP::Array<uint8_t>* output, int32_t outOff)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "DoFinal", std::vector<std::string> { "System.Byte[]", "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[2];
+	params[0] = (intptr_t)output;
+	params[1] = (intptr_t)&outOff;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}

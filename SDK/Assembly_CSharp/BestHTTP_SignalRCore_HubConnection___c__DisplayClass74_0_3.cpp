@@ -1,0 +1,2 @@
+#include "BestHTTP_SignalRCore_HubConnection___c__DisplayClass74_0_3.h"
+

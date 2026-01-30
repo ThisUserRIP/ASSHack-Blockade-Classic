@@ -1,0 +1,48 @@
+#pragma once
+namespace Rewired_Core::Rewired::Platforms
+{
+	enum struct Platform : int32_t
+	{
+		Unknown = static_cast<int32_t>(0x0),
+		Windows = static_cast<int32_t>(0x1),
+		WindowsAppStore = static_cast<int32_t>(0x2),
+		WindowsPhone8 = static_cast<int32_t>(0x3),
+		OSX = static_cast<int32_t>(0x4),
+		iOS = static_cast<int32_t>(0x5),
+		Linux = static_cast<int32_t>(0x6),
+		Android = static_cast<int32_t>(0x7),
+		Blackberry = static_cast<int32_t>(0x8),
+		Webplayer = static_cast<int32_t>(0x9),
+		Xbox360 = static_cast<int32_t>(0xA),
+		XboxOne = static_cast<int32_t>(0xB),
+		PS3 = static_cast<int32_t>(0xC),
+		PS4 = static_cast<int32_t>(0xD),
+		PSVita = static_cast<int32_t>(0xE),
+		PSMobile = static_cast<int32_t>(0xF),
+		Wii = static_cast<int32_t>(0x10),
+		Flash = static_cast<int32_t>(0x11),
+		WiiU = static_cast<int32_t>(0x12),
+		WebGL = static_cast<int32_t>(0x13),
+		Tizen = static_cast<int32_t>(0x14),
+		Xenon = static_cast<int32_t>(0x15),
+		STV = static_cast<int32_t>(0x16),
+		NACL = static_cast<int32_t>(0x17),
+		NACL_Webplayer = static_cast<int32_t>(0x18),
+		NACL_Chrome = static_cast<int32_t>(0x19),
+		SamsungTV = static_cast<int32_t>(0x1A),
+		Pepper = static_cast<int32_t>(0x1B),
+		tvOS = static_cast<int32_t>(0x1C),
+		WindowsUWP = static_cast<int32_t>(0x1D),
+		Windows81Store = static_cast<int32_t>(0x1E),
+		N3DS = static_cast<int32_t>(0x1F),
+		Switch = static_cast<int32_t>(0x20),
+		Ouya = static_cast<int32_t>(0x64),
+		AmazonFireTV = static_cast<int32_t>(0x65),
+		RazerForgeTV = static_cast<int32_t>(0x66),
+		Stadia = static_cast<int32_t>(0x67),
+		GameCoreXboxOne = static_cast<int32_t>(0x68),
+		GameCoreScarlett = static_cast<int32_t>(0x69),
+		PS5 = static_cast<int32_t>(0x6A),
+	};
+}
+

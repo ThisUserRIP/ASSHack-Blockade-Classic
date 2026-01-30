@@ -1,0 +1,46 @@
+#pragma once
+namespace mscorlib::System::Runtime::InteropServices
+{
+	enum struct UnmanagedType : int32_t
+	{
+		Bool = static_cast<int32_t>(0x2),
+		I1 = static_cast<int32_t>(0x3),
+		U1 = static_cast<int32_t>(0x4),
+		I2 = static_cast<int32_t>(0x5),
+		U2 = static_cast<int32_t>(0x6),
+		I4 = static_cast<int32_t>(0x7),
+		U4 = static_cast<int32_t>(0x8),
+		I8 = static_cast<int32_t>(0x9),
+		U8 = static_cast<int32_t>(0xA),
+		R4 = static_cast<int32_t>(0xB),
+		R8 = static_cast<int32_t>(0xC),
+		Currency = static_cast<int32_t>(0xF),
+		BStr = static_cast<int32_t>(0x13),
+		LPStr = static_cast<int32_t>(0x14),
+		LPWStr = static_cast<int32_t>(0x15),
+		LPTStr = static_cast<int32_t>(0x16),
+		ByValTStr = static_cast<int32_t>(0x17),
+		IUnknown = static_cast<int32_t>(0x19),
+		IDispatch = static_cast<int32_t>(0x1A),
+		Struct = static_cast<int32_t>(0x1B),
+		Interface = static_cast<int32_t>(0x1C),
+		SafeArray = static_cast<int32_t>(0x1D),
+		ByValArray = static_cast<int32_t>(0x1E),
+		SysInt = static_cast<int32_t>(0x1F),
+		SysUInt = static_cast<int32_t>(0x20),
+		VBByRefStr = static_cast<int32_t>(0x22),
+		AnsiBStr = static_cast<int32_t>(0x23),
+		TBStr = static_cast<int32_t>(0x24),
+		VariantBool = static_cast<int32_t>(0x25),
+		FunctionPtr = static_cast<int32_t>(0x26),
+		AsAny = static_cast<int32_t>(0x28),
+		LPArray = static_cast<int32_t>(0x2A),
+		LPStruct = static_cast<int32_t>(0x2B),
+		CustomMarshaler = static_cast<int32_t>(0x2C),
+		Error = static_cast<int32_t>(0x2D),
+		IInspectable = static_cast<int32_t>(0x2E),
+		HString = static_cast<int32_t>(0x2F),
+		LPUTF8Str = static_cast<int32_t>(0x30),
+	};
+}
+

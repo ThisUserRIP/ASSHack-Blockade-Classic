@@ -1,0 +1,43 @@
+#include "Facepunch_Steamworks_Inventory_Recipe___c.h"
+
+IL2CPP::Il2CppClass* Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe___c::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIl2CppNestedType(Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe::GetIl2CppClass(), "<>c");
+	return il2cppclass;
+}
+mscorlib::System::Type* Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe___c::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+void Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe___c::_cctor()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".cctor");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, nullptr, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}
+void Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe___c::_ctor()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".ctor");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}
+bool Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe___c::_FromString_b__3_1(Facepunch_Steamworks::Facepunch::Steamworks::Inventory_Recipe_Ingredient x)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "<FromString>b__3_1", std::vector<std::string> { "Facepunch.Steamworks.Inventory/Recipe/Ingredient" });
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&x;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(address, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		bool ret;
+		std::memset(&ret, 0, sizeof(bool));
+		return ret;
+	}
+	return static_cast<bool>(*(bool*)il2cpp_object_unbox(returnValue));
+}

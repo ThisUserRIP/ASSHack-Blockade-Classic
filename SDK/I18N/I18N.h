@@ -1,0 +1,8 @@
+#include "_Module_.h"
+#include "Consts.h"
+#include "I18N_Common_ByteEncoding.h"
+#include "I18N_Common_Handlers.h"
+#include "I18N_Common_Manager.h"
+#include "I18N_Common_MonoEncoding.h"
+#include "I18N_Common_MonoEncoder.h"
+#include "I18N_Common_Strings.h"

@@ -1,0 +1,255 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "..\mscorlib\System_Object.h"
+namespace Rewired_Core { struct bhsiOYyuLgoZVDaslnvjJtzLABN; };
+#include "..\mscorlib\System_Boolean.h"
+namespace mscorlib::System { struct Boolean; };
+#include "..\mscorlib\System_Int32.h"
+namespace mscorlib::System { struct Int32; };
+namespace mscorlib::System { struct String; };
+namespace Rewired_Core::Rewired { struct Player_ControllerHelper; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+namespace Rewired_Core { struct mUbbinbjQOMNIAzUbOrfgDmjOhKR; };
+namespace Rewired_Core::Rewired { struct ControllerMapLayoutManager_StartingSettings; };
+namespace Rewired_Core::Rewired { struct ControllerMapEnabler_wHqkuIoGNdizXgXEUBaCAAvdFEds; };
+#include "Rewired_PlayerSaveData.h"
+namespace Rewired_Core::Rewired { struct PlayerSaveData; };
+#include "..\mscorlib\System_Single.h"
+namespace mscorlib::System { struct Single; };
+#include "..\mscorlib\System_Double.h"
+namespace mscorlib::System { struct Double; };
+#include "..\UnityEngine_CoreModule\UnityEngine_Vector2.h"
+namespace UnityEngine_CoreModule::UnityEngine { struct Vector2; };
+#include "Rewired_AxisCoordinateMode.h"
+#include "Rewired_InputActionSourceData.h"
+namespace Rewired_Core::Rewired { struct InputActionSourceData; };
+namespace mscorlib::System::Collections::Generic { template <typename T> struct IList_1; };
+#include "Rewired_ControllerType.h"
+namespace Rewired_Core::Rewired { struct Controller; };
+#include "Rewired_InputActionEventData.h"
+namespace Rewired_Core::Rewired { struct InputActionEventData; };
+namespace mscorlib::System { template <typename T> struct Action_1; };
+#include "Rewired_UpdateLoopType.h"
+#include "Rewired_InputActionEventType.h"
+namespace mscorlib::System { struct Object; };
+
+namespace Rewired_Core::Rewired
+{
+	struct Player : mscorlib::System::Object
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		Rewired_Core::bhsiOYyuLgoZVDaslnvjJtzLABN* dCigxCgauXjaTcGqcqAiCnBenWXP;
+		bool PJQcBKYsczBVDgaxIRTAsXpXBqf;
+		int32_t OPPOtDNHGlrPGeLpHmQhFxdvEAr;
+		mscorlib::System::String* zChKajbhRtCfjSPFRgSGEUIuXlt;
+		mscorlib::System::String* EVsvjwcFAnFPjABNKIZwpSAcqTc;
+		bool oFZjIahiaNVGCRCUUKUTqFafVHQ;
+		int32_t CegCZCxKXWIRHZSULEYHhSHkAZS;
+		Rewired_Core::Rewired::Player_ControllerHelper* controllers;
+		void _ctor(bool isSystem, int32_t playerId, mscorlib::System::String* name, mscorlib::System::String* descriptiveName, Rewired_Core::mUbbinbjQOMNIAzUbOrfgDmjOhKR* startingControllerMapInfo, Rewired_Core::Rewired::ControllerMapLayoutManager_StartingSettings* controllerMapLayoutManagerSettings, Rewired_Core::Rewired::ControllerMapEnabler_wHqkuIoGNdizXgXEUBaCAAvdFEds* controllerMapEnablerSettings);
+		int32_t get_id();
+		void set_id(int32_t value);
+		mscorlib::System::String* get_name();
+		void set_name(mscorlib::System::String* value);
+		mscorlib::System::String* get_descriptiveName();
+		void set_descriptiveName(mscorlib::System::String* value);
+		bool get_isPlaying();
+		void set_isPlaying(bool value);
+		Rewired_Core::Rewired::PlayerSaveData GetSaveData(bool userAssignableMapsOnly);
+		bool GetButton(mscorlib::System::String* actionName);
+		bool GetButton(int32_t actionId);
+		bool GetButtonDown(mscorlib::System::String* actionName);
+		bool GetButtonDown(int32_t actionId);
+		bool GetButtonUp(mscorlib::System::String* actionName);
+		bool GetButtonUp(int32_t actionId);
+		bool GetButtonPrev(mscorlib::System::String* actionName);
+		bool GetButtonPrev(int32_t actionId);
+		bool GetButtonSinglePressHold(int32_t actionId);
+		bool GetButtonSinglePressHold(mscorlib::System::String* actionName);
+		bool GetButtonSinglePressDown(int32_t actionId);
+		bool GetButtonSinglePressDown(mscorlib::System::String* actionName);
+		bool GetButtonSinglePressUp(int32_t actionId);
+		bool GetButtonSinglePressUp(mscorlib::System::String* actionName);
+		bool GetButtonDoublePressHold(mscorlib::System::String* actionName, float speed);
+		bool GetButtonDoublePressHold(int32_t actionId, float speed);
+		bool GetButtonDoublePressHold(mscorlib::System::String* actionName);
+		bool GetButtonDoublePressHold(int32_t actionId);
+		bool GetButtonDoublePressDown(mscorlib::System::String* actionName, float speed);
+		bool GetButtonDoublePressDown(int32_t actionId, float speed);
+		bool GetButtonDoublePressDown(mscorlib::System::String* actionName);
+		bool GetButtonDoublePressDown(int32_t actionId);
+		bool GetButtonDoublePressUp(mscorlib::System::String* actionName, float speed);
+		bool GetButtonDoublePressUp(int32_t actionId, float speed);
+		bool GetButtonDoublePressUp(mscorlib::System::String* actionName);
+		bool GetButtonDoublePressUp(int32_t actionId);
+		bool GetButtonTimedPress(mscorlib::System::String* actionName, float time);
+		bool GetButtonTimedPress(int32_t actionId, float time);
+		bool GetButtonTimedPress(mscorlib::System::String* actionName, float time, float expireIn);
+		bool GetButtonTimedPress(int32_t actionId, float time, float expireIn);
+		bool GetButtonTimedPressDown(mscorlib::System::String* actionName, float time);
+		bool GetButtonTimedPressDown(int32_t actionId, float time);
+		bool GetButtonTimedPressUp(mscorlib::System::String* actionName, float time);
+		bool GetButtonTimedPressUp(int32_t actionId, float time);
+		bool GetButtonTimedPressUp(mscorlib::System::String* actionName, float time, float expireIn);
+		bool GetButtonTimedPressUp(int32_t actionId, float time, float expireIn);
+		bool GetButtonShortPress(mscorlib::System::String* actionName);
+		bool GetButtonShortPress(int32_t actionId);
+		bool GetButtonShortPressDown(mscorlib::System::String* actionName);
+		bool GetButtonShortPressDown(int32_t actionId);
+		bool GetButtonShortPressUp(mscorlib::System::String* actionName);
+		bool GetButtonShortPressUp(int32_t actionId);
+		bool GetButtonLongPress(mscorlib::System::String* actionName);
+		bool GetButtonLongPress(int32_t actionId);
+		bool GetButtonLongPressDown(mscorlib::System::String* actionName);
+		bool GetButtonLongPressDown(int32_t actionId);
+		bool GetButtonLongPressUp(mscorlib::System::String* actionName);
+		bool GetButtonLongPressUp(int32_t actionId);
+		bool GetButtonRepeating(mscorlib::System::String* actionName);
+		bool GetButtonRepeating(int32_t actionId);
+		bool GetAnyButton();
+		bool GetAnyButtonDown();
+		bool GetAnyButtonUp();
+		bool GetAnyButtonPrev();
+		double GetButtonTimePressed(mscorlib::System::String* actionName);
+		double GetButtonTimePressed(int32_t actionId);
+		double GetButtonTimeUnpressed(mscorlib::System::String* actionName);
+		double GetButtonTimeUnpressed(int32_t actionId);
+		bool GetNegativeButton(mscorlib::System::String* actionName);
+		bool GetNegativeButton(int32_t actionId);
+		bool GetNegativeButtonDown(mscorlib::System::String* actionName);
+		bool GetNegativeButtonDown(int32_t actionId);
+		bool GetNegativeButtonUp(mscorlib::System::String* actionName);
+		bool GetNegativeButtonUp(int32_t actionId);
+		bool GetNegativeButtonPrev(mscorlib::System::String* actionName);
+		bool GetNegativeButtonPrev(int32_t actionId);
+		bool GetNegativeButtonSinglePressHold(int32_t actionId);
+		bool GetNegativeButtonSinglePressHold(mscorlib::System::String* actionName);
+		bool GetNegativeButtonSinglePressDown(int32_t actionId);
+		bool GetNegativeButtonSinglePressDown(mscorlib::System::String* actionName);
+		bool GetNegativeButtonSinglePressUp(int32_t actionId);
+		bool GetNegativeButtonSinglePressUp(mscorlib::System::String* actionName);
+		bool GetNegativeButtonDoublePressHold(mscorlib::System::String* actionName, float speed);
+		bool GetNegativeButtonDoublePressHold(int32_t actionId, float speed);
+		bool GetNegativeButtonDoublePressHold(mscorlib::System::String* actionName);
+		bool GetNegativeButtonDoublePressHold(int32_t actionId);
+		bool GetNegativeButtonDoublePressDown(mscorlib::System::String* actionName, float speed);
+		bool GetNegativeButtonDoublePressDown(int32_t actionId, float speed);
+		bool GetNegativeButtonDoublePressDown(mscorlib::System::String* actionName);
+		bool GetNegativeButtonDoublePressDown(int32_t actionId);
+		bool GetNegativeButtonDoublePressUp(mscorlib::System::String* actionName, float speed);
+		bool GetNegativeButtonDoublePressUp(int32_t actionId, float speed);
+		bool GetNegativeButtonDoublePressUp(mscorlib::System::String* actionName);
+		bool GetNegativeButtonDoublePressUp(int32_t actionId);
+		bool GetNegativeButtonTimedPress(mscorlib::System::String* actionName, float time);
+		bool GetNegativeButtonTimedPress(int32_t actionId, float time);
+		bool GetNegativeButtonTimedPress(mscorlib::System::String* actionName, float time, float expireIn);
+		bool GetNegativeButtonTimedPress(int32_t actionId, float time, float expireIn);
+		bool GetNegativeButtonTimedPressDown(mscorlib::System::String* actionName, float time);
+		bool GetNegativeButtonTimedPressDown(int32_t actionId, float time);
+		bool GetNegativeButtonTimedPressUp(mscorlib::System::String* actionName, float time);
+		bool GetNegativeButtonTimedPressUp(int32_t actionId, float time);
+		bool GetNegativeButtonTimedPressUp(mscorlib::System::String* actionName, float time, float expireIn);
+		bool GetNegativeButtonTimedPressUp(int32_t actionId, float time, float expireIn);
+		bool GetNegativeButtonShortPress(mscorlib::System::String* actionName);
+		bool GetNegativeButtonShortPress(int32_t actionId);
+		bool GetNegativeButtonShortPressDown(mscorlib::System::String* actionName);
+		bool GetNegativeButtonShortPressDown(int32_t actionId);
+		bool GetNegativeButtonShortPressUp(mscorlib::System::String* actionName);
+		bool GetNegativeButtonShortPressUp(int32_t actionId);
+		bool GetNegativeButtonLongPress(mscorlib::System::String* actionName);
+		bool GetNegativeButtonLongPress(int32_t actionId);
+		bool GetNegativeButtonLongPressDown(mscorlib::System::String* actionName);
+		bool GetNegativeButtonLongPressDown(int32_t actionId);
+		bool GetNegativeButtonLongPressUp(mscorlib::System::String* actionName);
+		bool GetNegativeButtonLongPressUp(int32_t actionId);
+		bool GetNegativeButtonRepeating(mscorlib::System::String* actionName);
+		bool GetNegativeButtonRepeating(int32_t actionId);
+		bool GetAnyNegativeButton();
+		bool GetAnyNegativeButtonDown();
+		bool GetAnyNegativeButtonUp();
+		bool GetAnyNegativeButtonPrev();
+		double GetNegativeButtonTimePressed(mscorlib::System::String* actionName);
+		double GetNegativeButtonTimePressed(int32_t actionId);
+		double GetNegativeButtonTimeUnpressed(mscorlib::System::String* actionName);
+		double GetNegativeButtonTimeUnpressed(int32_t actionId);
+		float GetAxis(mscorlib::System::String* actionName);
+		float GetAxis(int32_t actionId);
+		float GetAxisRaw(mscorlib::System::String* actionName);
+		float GetAxisRaw(int32_t actionId);
+		float GetAxisPrev(mscorlib::System::String* actionName);
+		float GetAxisPrev(int32_t actionId);
+		float GetAxisRawPrev(mscorlib::System::String* actionName);
+		float GetAxisRawPrev(int32_t actionId);
+		float GetAxisDelta(mscorlib::System::String* actionName);
+		float GetAxisDelta(int32_t actionId);
+		float GetAxisRawDelta(mscorlib::System::String* actionName);
+		float GetAxisRawDelta(int32_t actionId);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2D(mscorlib::System::String* xAxisActionName, mscorlib::System::String* yAxisActionName);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2D(int32_t xAxisActionId, int32_t yAxisActionId);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2DPrev(mscorlib::System::String* xAxisActionName, mscorlib::System::String* yAxisActionName);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2DPrev(int32_t xAxisActionId, int32_t yAxisActionId);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2DRaw(mscorlib::System::String* xAxisActionName, mscorlib::System::String* yAxisActionName);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2DRaw(int32_t xAxisActionId, int32_t yAxisActionId);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2DRawPrev(mscorlib::System::String* xAxisActionName, mscorlib::System::String* yAxisActionName);
+		UnityEngine_CoreModule::UnityEngine::Vector2 GetAxis2DRawPrev(int32_t xAxisActionId, int32_t yAxisActionId);
+		double GetAxisTimeActive(mscorlib::System::String* actionName);
+		double GetAxisTimeActive(int32_t actionId);
+		double GetAxisTimeInactive(mscorlib::System::String* actionName);
+		double GetAxisTimeInactive(int32_t actionId);
+		double GetAxisRawTimeActive(mscorlib::System::String* actionName);
+		double GetAxisRawTimeActive(int32_t actionId);
+		double GetAxisRawTimeInactive(mscorlib::System::String* actionName);
+		double GetAxisRawTimeInactive(int32_t actionId);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisCoordinateMode(mscorlib::System::String* actionName);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisCoordinateMode(int32_t actionId);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisRawCoordinateMode(mscorlib::System::String* actionName);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisRawCoordinateMode(int32_t actionId);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisCoordinateModePrev(mscorlib::System::String* actionName);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisCoordinateModePrev(int32_t actionId);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisRawCoordinateModePrev(mscorlib::System::String* actionName);
+		Rewired_Core::Rewired::AxisCoordinateMode GetAxisRawCoordinateModePrev(int32_t actionId);
+		mscorlib::System::Collections::Generic::IList_1<Rewired_Core::Rewired::InputActionSourceData>* GetCurrentInputSources(mscorlib::System::String* actionName);
+		mscorlib::System::Collections::Generic::IList_1<Rewired_Core::Rewired::InputActionSourceData>* GetCurrentInputSources(int32_t actionId);
+		bool IsCurrentInputSource(mscorlib::System::String* actionName, Rewired_Core::Rewired::ControllerType controllerType);
+		bool IsCurrentInputSource(int32_t actionId, Rewired_Core::Rewired::ControllerType controllerType);
+		bool IsCurrentInputSource(mscorlib::System::String* actionName, Rewired_Core::Rewired::ControllerType controllerType, int32_t controllerId);
+		bool IsCurrentInputSource(int32_t actionId, Rewired_Core::Rewired::ControllerType controllerType, int32_t controllerId);
+		bool IsCurrentInputSource(mscorlib::System::String* actionName, Rewired_Core::Rewired::Controller* controller);
+		bool IsCurrentInputSource(int32_t actionId, Rewired_Core::Rewired::Controller* controller);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, int32_t actionId);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, mscorlib::System::String* actionName);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, int32_t actionId);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, mscorlib::System::String* actionName);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, IL2CPP::Array<mscorlib::System::Object*>* arguments);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, int32_t actionId, IL2CPP::Array<mscorlib::System::Object*>* arguments);
+		void AddInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, mscorlib::System::String* actionName, IL2CPP::Array<mscorlib::System::Object*>* arguments);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, int32_t actionId);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, mscorlib::System::String* actionName);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::InputActionEventType eventType);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, int32_t actionId);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, mscorlib::System::String* actionName);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::InputActionEventType eventType, int32_t actionId);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::InputActionEventType eventType, mscorlib::System::String* actionName);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, int32_t actionId);
+		void RemoveInputEventDelegate(mscorlib::System::Action_1<Rewired_Core::Rewired::InputActionEventData>* callback, Rewired_Core::Rewired::UpdateLoopType updateLoop, Rewired_Core::Rewired::InputActionEventType eventType, mscorlib::System::String* actionName);
+		void ClearInputEventDelegates();
+		void SetVibration(int32_t motorIndex, float motorLevel);
+		void SetVibration(int32_t motorIndex, float motorLevel, float duration);
+		void SetVibration(int32_t motorIndex, float motorLevel, bool stopOtherMotors);
+		void SetVibration(int32_t motorIndex, float motorLevel, float duration, bool stopOtherMotors);
+		float GetVibration(int32_t motorIndex);
+		void StopVibration();
+		void zJbzOufrsBtxEPHEpbdbhOzmLZO();
+		void pKLNoWCgVUqlRfCsOXaDmHUNbICB();
+	};
+}
+

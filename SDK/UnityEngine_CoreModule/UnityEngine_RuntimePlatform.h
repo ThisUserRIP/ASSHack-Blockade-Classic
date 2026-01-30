@@ -1,0 +1,48 @@
+#pragma once
+namespace UnityEngine_CoreModule::UnityEngine
+{
+	enum struct RuntimePlatform : int32_t
+	{
+		OSXEditor = static_cast<int32_t>(0x0),
+		OSXPlayer = static_cast<int32_t>(0x1),
+		WindowsPlayer = static_cast<int32_t>(0x2),
+		OSXWebPlayer = static_cast<int32_t>(0x3),
+		OSXDashboardPlayer = static_cast<int32_t>(0x4),
+		WindowsWebPlayer = static_cast<int32_t>(0x5),
+		WindowsEditor = static_cast<int32_t>(0x7),
+		IPhonePlayer = static_cast<int32_t>(0x8),
+		XBOX360 = static_cast<int32_t>(0xA),
+		PS3 = static_cast<int32_t>(0x9),
+		Android = static_cast<int32_t>(0xB),
+		NaCl = static_cast<int32_t>(0xC),
+		FlashPlayer = static_cast<int32_t>(0xF),
+		LinuxPlayer = static_cast<int32_t>(0xD),
+		LinuxEditor = static_cast<int32_t>(0x10),
+		WebGLPlayer = static_cast<int32_t>(0x11),
+		MetroPlayerX86 = static_cast<int32_t>(0x12),
+		WSAPlayerX86 = static_cast<int32_t>(0x12),
+		MetroPlayerX64 = static_cast<int32_t>(0x13),
+		WSAPlayerX64 = static_cast<int32_t>(0x13),
+		MetroPlayerARM = static_cast<int32_t>(0x14),
+		WSAPlayerARM = static_cast<int32_t>(0x14),
+		WP8Player = static_cast<int32_t>(0x15),
+		BlackBerryPlayer = static_cast<int32_t>(0x16),
+		TizenPlayer = static_cast<int32_t>(0x17),
+		PSP2 = static_cast<int32_t>(0x18),
+		PS4 = static_cast<int32_t>(0x19),
+		PSM = static_cast<int32_t>(0x1A),
+		XboxOne = static_cast<int32_t>(0x1B),
+		SamsungTVPlayer = static_cast<int32_t>(0x1C),
+		WiiU = static_cast<int32_t>(0x1E),
+		tvOS = static_cast<int32_t>(0x1F),
+		Switch = static_cast<int32_t>(0x20),
+		Lumin = static_cast<int32_t>(0x21),
+		Stadia = static_cast<int32_t>(0x22),
+		CloudRendering = static_cast<int32_t>(0x23),
+		GameCoreScarlett = static_cast<int32_t>(0x24),
+		GameCoreXboxSeries = static_cast<int32_t>(0x24),
+		GameCoreXboxOne = static_cast<int32_t>(0x25),
+		PS5 = static_cast<int32_t>(0x26),
+	};
+}
+

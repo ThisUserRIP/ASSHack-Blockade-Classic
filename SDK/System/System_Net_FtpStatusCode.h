@@ -1,0 +1,45 @@
+#pragma once
+namespace System::System::Net
+{
+	enum struct FtpStatusCode : int32_t
+	{
+		Undefined = static_cast<int32_t>(0x0),
+		RestartMarker = static_cast<int32_t>(0x6E),
+		ServiceTemporarilyNotAvailable = static_cast<int32_t>(0x78),
+		DataAlreadyOpen = static_cast<int32_t>(0x7D),
+		OpeningData = static_cast<int32_t>(0x96),
+		CommandOK = static_cast<int32_t>(0xC8),
+		CommandExtraneous = static_cast<int32_t>(0xCA),
+		DirectoryStatus = static_cast<int32_t>(0xD4),
+		FileStatus = static_cast<int32_t>(0xD5),
+		SystemType = static_cast<int32_t>(0xD7),
+		SendUserCommand = static_cast<int32_t>(0xDC),
+		ClosingControl = static_cast<int32_t>(0xDD),
+		ClosingData = static_cast<int32_t>(0xE2),
+		EnteringPassive = static_cast<int32_t>(0xE3),
+		LoggedInProceed = static_cast<int32_t>(0xE6),
+		ServerWantsSecureSession = static_cast<int32_t>(0xEA),
+		FileActionOK = static_cast<int32_t>(0xFA),
+		PathnameCreated = static_cast<int32_t>(0x101),
+		SendPasswordCommand = static_cast<int32_t>(0x14B),
+		NeedLoginAccount = static_cast<int32_t>(0x14C),
+		FileCommandPending = static_cast<int32_t>(0x15E),
+		ServiceNotAvailable = static_cast<int32_t>(0x1A5),
+		CantOpenData = static_cast<int32_t>(0x1A9),
+		ConnectionClosed = static_cast<int32_t>(0x1AA),
+		ActionNotTakenFileUnavailableOrBusy = static_cast<int32_t>(0x1C2),
+		ActionAbortedLocalProcessingError = static_cast<int32_t>(0x1C3),
+		ActionNotTakenInsufficientSpace = static_cast<int32_t>(0x1C4),
+		CommandSyntaxError = static_cast<int32_t>(0x1F4),
+		ArgumentSyntaxError = static_cast<int32_t>(0x1F5),
+		CommandNotImplemented = static_cast<int32_t>(0x1F6),
+		BadCommandSequence = static_cast<int32_t>(0x1F7),
+		NotLoggedIn = static_cast<int32_t>(0x212),
+		AccountNeeded = static_cast<int32_t>(0x214),
+		ActionNotTakenFileUnavailable = static_cast<int32_t>(0x226),
+		ActionAbortedUnknownPageType = static_cast<int32_t>(0x227),
+		FileActionAborted = static_cast<int32_t>(0x228),
+		ActionNotTakenFilenameNotAllowed = static_cast<int32_t>(0x229),
+	};
+}
+

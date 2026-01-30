@@ -1,0 +1,47 @@
+#pragma once
+namespace mscorlib::System
+{
+	enum struct DateTimeParse_DS : int32_t
+	{
+		BEGIN = static_cast<int32_t>(0x0),
+		N = static_cast<int32_t>(0x1),
+		NN = static_cast<int32_t>(0x2),
+		D_Nd = static_cast<int32_t>(0x3),
+		D_NN = static_cast<int32_t>(0x4),
+		D_NNd = static_cast<int32_t>(0x5),
+		D_M = static_cast<int32_t>(0x6),
+		D_MN = static_cast<int32_t>(0x7),
+		D_NM = static_cast<int32_t>(0x8),
+		D_MNd = static_cast<int32_t>(0x9),
+		D_NDS = static_cast<int32_t>(0xA),
+		D_Y = static_cast<int32_t>(0xB),
+		D_YN = static_cast<int32_t>(0xC),
+		D_YNd = static_cast<int32_t>(0xD),
+		D_YM = static_cast<int32_t>(0xE),
+		D_YMd = static_cast<int32_t>(0xF),
+		D_S = static_cast<int32_t>(0x10),
+		T_S = static_cast<int32_t>(0x11),
+		T_Nt = static_cast<int32_t>(0x12),
+		T_NNt = static_cast<int32_t>(0x13),
+		ERROR_ = static_cast<int32_t>(0x14),
+		DX_NN = static_cast<int32_t>(0x15),
+		DX_NNN = static_cast<int32_t>(0x16),
+		DX_MN = static_cast<int32_t>(0x17),
+		DX_NM = static_cast<int32_t>(0x18),
+		DX_MNN = static_cast<int32_t>(0x19),
+		DX_DS = static_cast<int32_t>(0x1A),
+		DX_DSN = static_cast<int32_t>(0x1B),
+		DX_NDS = static_cast<int32_t>(0x1C),
+		DX_NNDS = static_cast<int32_t>(0x1D),
+		DX_YNN = static_cast<int32_t>(0x1E),
+		DX_YMN = static_cast<int32_t>(0x1F),
+		DX_YN = static_cast<int32_t>(0x20),
+		DX_YM = static_cast<int32_t>(0x21),
+		TX_N = static_cast<int32_t>(0x22),
+		TX_NN = static_cast<int32_t>(0x23),
+		TX_NNN = static_cast<int32_t>(0x24),
+		TX_TS = static_cast<int32_t>(0x25),
+		DX_NNY = static_cast<int32_t>(0x26),
+	};
+}
+

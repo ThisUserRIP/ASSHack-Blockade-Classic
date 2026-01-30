@@ -1,0 +1,105 @@
+#include "System_Xml_UTF16Decoder.h"
+
+IL2CPP::Il2CppClass* System_Xml::System::Xml::UTF16Decoder::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIL2CppClass("System.Xml.dll", "System.Xml", "UTF16Decoder");
+	return il2cppclass;
+}
+mscorlib::System::Type* System_Xml::System::Xml::UTF16Decoder::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+void System_Xml::System::Xml::UTF16Decoder::_ctor(bool bigEndian)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".ctor", std::vector<std::string> { "System.Boolean" });
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&bigEndian;
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+}
+int32_t System_Xml::System::Xml::UTF16Decoder::GetCharCount(IL2CPP::Array<uint8_t>* bytes, int32_t index, int32_t count)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "GetCharCount", std::vector<std::string> { "System.Byte[]", "System.Int32", "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[3];
+	params[0] = (intptr_t)bytes;
+	params[1] = (intptr_t)&index;
+	params[2] = (intptr_t)&count;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+int32_t System_Xml::System::Xml::UTF16Decoder::GetCharCount(IL2CPP::Array<uint8_t>* bytes, int32_t index, int32_t count, bool flush)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "GetCharCount", std::vector<std::string> { "System.Byte[]", "System.Int32", "System.Int32", "System.Boolean" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[4];
+	params[0] = (intptr_t)bytes;
+	params[1] = (intptr_t)&index;
+	params[2] = (intptr_t)&count;
+	params[3] = (intptr_t)&flush;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+int32_t System_Xml::System::Xml::UTF16Decoder::GetChars(IL2CPP::Array<uint8_t>* bytes, int32_t byteIndex, int32_t byteCount, IL2CPP::Array<wchar_t>* chars, int32_t charIndex)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "GetChars", std::vector<std::string> { "System.Byte[]", "System.Int32", "System.Int32", "System.Char[]", "System.Int32" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[5];
+	params[0] = (intptr_t)bytes;
+	params[1] = (intptr_t)&byteIndex;
+	params[2] = (intptr_t)&byteCount;
+	params[3] = (intptr_t)chars;
+	params[4] = (intptr_t)&charIndex;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+void System_Xml::System::Xml::UTF16Decoder::Convert(IL2CPP::Array<uint8_t>* bytes, int32_t byteIndex, int32_t byteCount, IL2CPP::Array<wchar_t>* chars, int32_t charIndex, int32_t charCount, bool flush, int32_t& bytesUsed, int32_t& charsUsed, bool& completed)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "Convert", std::vector<std::string> { "System.Byte[]", "System.Int32", "System.Int32", "System.Char[]", "System.Int32", "System.Int32", "System.Boolean", "System.Int32&", "System.Int32&", "System.Boolean&" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[10];
+	params[0] = (intptr_t)bytes;
+	params[1] = (intptr_t)&byteIndex;
+	params[2] = (intptr_t)&byteCount;
+	params[3] = (intptr_t)chars;
+	params[4] = (intptr_t)&charIndex;
+	params[5] = (intptr_t)&charCount;
+	params[6] = (intptr_t)&flush;
+	params[7] = (intptr_t)&bytesUsed;
+	params[8] = (intptr_t)&charsUsed;
+	params[9] = (intptr_t)&completed;
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+}

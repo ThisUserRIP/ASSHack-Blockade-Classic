@@ -1,0 +1,453 @@
+#include "Rewired_IFlightYokeTemplate.h"
+
+IL2CPP::Il2CppClass* Assembly_CSharp::Rewired::IFlightYokeTemplate::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIL2CppClass("Assembly-CSharp.dll", "Rewired", "IFlightYokeTemplate");
+	return il2cppclass;
+}
+mscorlib::System::Type* Assembly_CSharp::Rewired::IFlightYokeTemplate::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftPaddle()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftPaddle");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightPaddle()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightPaddle");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripButton1()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripButton1");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripButton2()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripButton2");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripButton3()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripButton3");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripButton4()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripButton4");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripButton5()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripButton5");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripButton6()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripButton6");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripButton1()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripButton1");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripButton2()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripButton2");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripButton3()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripButton3");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripButton4()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripButton4");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripButton5()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripButton5");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripButton6()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripButton6");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton1()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton1");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton2()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton2");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton3()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton3");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton4()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton4");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton5()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton5");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton6()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton6");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton7()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton7");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_centerButton8()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_centerButton8");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_wheel1Up()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_wheel1Up");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_wheel1Down()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_wheel1Down");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_wheel1Press()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_wheel1Press");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_wheel2Up()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_wheel2Up");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_wheel2Down()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_wheel2Down");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_wheel2Press()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_wheel2Press");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton1()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton1");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton2()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton2");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton3()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton3");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton4()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton4");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton5()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton5");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton6()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton6");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton7()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton7");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton8()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton8");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton9()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton9");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_consoleButton10()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_consoleButton10");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_mode1()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_mode1");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_mode2()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_mode2");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateButton* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_mode3()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_mode3");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateButton*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateYoke* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_yoke()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_yoke");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateYoke*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateThrottle* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_lever1()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_lever1");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateThrottle*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateThrottle* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_lever2()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_lever2");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateThrottle*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateThrottle* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_lever3()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_lever3");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateThrottle*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateThrottle* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_lever4()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_lever4");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateThrottle*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateThrottle* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_lever5()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_lever5");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateThrottle*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateHat* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_leftGripHat()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_leftGripHat");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateHat*)returnValue;
+}
+Rewired_Core::Rewired::IControllerTemplateHat* Assembly_CSharp::Rewired::IFlightYokeTemplate::get_rightGripHat()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_rightGripHat");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (Rewired_Core::Rewired::IControllerTemplateHat*)returnValue;
+}

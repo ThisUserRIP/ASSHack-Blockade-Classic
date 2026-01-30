@@ -1,0 +1,40 @@
+#include "System_Runtime_Serialization_ISerializationSurrogate.h"
+
+IL2CPP::Il2CppClass* mscorlib::System::Runtime::Serialization::ISerializationSurrogate::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIL2CppClass("mscorlib.dll", "System.Runtime.Serialization", "ISerializationSurrogate");
+	return il2cppclass;
+}
+mscorlib::System::Type* mscorlib::System::Runtime::Serialization::ISerializationSurrogate::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+void mscorlib::System::Runtime::Serialization::ISerializationSurrogate::GetObjectData(mscorlib::System::Object* obj, mscorlib::System::Runtime::Serialization::SerializationInfo* info, mscorlib::System::Runtime::Serialization::StreamingContext context)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "GetObjectData", std::vector<std::string> { "System.Object", "System.Runtime.Serialization.SerializationInfo", "System.Runtime.Serialization.StreamingContext" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[3];
+	params[0] = (intptr_t)obj;
+	params[1] = (intptr_t)info;
+	params[2] = (intptr_t)&context;
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+}
+mscorlib::System::Object* mscorlib::System::Runtime::Serialization::ISerializationSurrogate::SetObjectData(mscorlib::System::Object* obj, mscorlib::System::Runtime::Serialization::SerializationInfo* info, mscorlib::System::Runtime::Serialization::StreamingContext context, mscorlib::System::Runtime::Serialization::ISurrogateSelector* selector)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "SetObjectData", std::vector<std::string> { "System.Object", "System.Runtime.Serialization.SerializationInfo", "System.Runtime.Serialization.StreamingContext", "System.Runtime.Serialization.ISurrogateSelector" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[4];
+	params[0] = (intptr_t)obj;
+	params[1] = (intptr_t)info;
+	params[2] = (intptr_t)&context;
+	params[3] = (intptr_t)selector;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	return (mscorlib::System::Object*)returnValue;
+}

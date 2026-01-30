@@ -1,0 +1,193 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "vp_Component.h"
+namespace Assembly_CSharp { struct vp_FPCamera; };
+namespace Assembly_CSharp { struct Map; };
+#include "..\UnityEngine_CoreModule\UnityEngine_Vector3.h"
+namespace UnityEngine_CoreModule::UnityEngine { struct Vector3; };
+namespace mscorlib::System::Collections::Generic { template <typename T> struct List_1; };
+namespace UnityEngine_PhysicsModule::UnityEngine { struct CharacterController; };
+namespace Assembly_CSharp { struct Client; };
+#include "..\mscorlib\System_Boolean.h"
+namespace mscorlib::System { struct Boolean; };
+#include "..\UnityEngine_PhysicsModule\UnityEngine_RaycastHit.h"
+namespace UnityEngine_PhysicsModule::UnityEngine { struct RaycastHit; };
+#include "..\mscorlib\System_Single.h"
+namespace mscorlib::System { struct Single; };
+#include "..\UnityEngine_CoreModule\UnityEngine_Vector2.h"
+namespace UnityEngine_CoreModule::UnityEngine { struct Vector2; };
+#include "..\mscorlib\System_Int32.h"
+namespace mscorlib::System { struct Int32; };
+namespace UnityEngine_CoreModule::UnityEngine { struct GameObject; };
+namespace UnityEngine_CoreModule::UnityEngine { struct Transform; };
+namespace Assembly_CSharp { struct Block; };
+namespace Assembly_CSharp { struct vp_FPPlayerEventHandler; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+namespace UnityEngine_PhysicsModule::UnityEngine { struct ControllerColliderHit; };
+
+namespace Assembly_CSharp
+{
+	struct vp_FPController : Assembly_CSharp::vp_Component
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		Assembly_CSharp::vp_FPCamera* m_FPSCamera;
+		Assembly_CSharp::Map* m_Map;
+		mscorlib::System::Collections::Generic::List_1<UnityEngine_CoreModule::UnityEngine::Vector3>* m_PrevPosition;
+		UnityEngine_PhysicsModule::UnityEngine::CharacterController* m_CharacterController;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_FixedPosition;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_SmoothPosition;
+		Assembly_CSharp::Client* client;
+		bool fake1;
+		bool fake2;
+		bool m_HeadContact;
+		bool fake3;
+		bool fake4;
+		bool m_Grounded;
+		bool m_NETGrounded;
+		bool fake5;
+		UnityEngine_PhysicsModule::UnityEngine::RaycastHit m_GroundHit;
+		UnityEngine_PhysicsModule::UnityEngine::RaycastHit m_LastGroundHit;
+		UnityEngine_PhysicsModule::UnityEngine::RaycastHit m_CeilingHit;
+		UnityEngine_PhysicsModule::UnityEngine::RaycastHit m_WallHit;
+		float m_FallImpact;
+		float m_MotorAirSpeedModifier;
+		float m_CurrentAntiBumpOffset;
+		float m_SlopeFactor;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_MoveDirection;
+		UnityEngine_CoreModule::UnityEngine::Vector2 m_MoveVector;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_MotorThrottle;
+		float MotorAcceleration;
+		float MotorDamping;
+		float MotorAirSpeed;
+		float MotorSlopeSpeedUp;
+		float MotorSlopeSpeedDown;
+		bool MotorFreeFly;
+		float MotorJumpForce;
+		float MotorJumpForceDamping;
+		float MotorJumpForceHold;
+		float MotorJumpForceHoldDamping;
+		int32_t m_MotorJumpForceHoldSkipFrames;
+		float m_MotorJumpForceAcc;
+		bool m_MotorJumpDone;
+		float m_FallSpeed;
+		float m_LastFallSpeed;
+		float m_HighestFallSpeed;
+		float PhysicsForceDamping;
+		float PhysicsPushForce;
+		float PhysicsGravityModifier;
+		float PhysicsSlopeSlideLimit;
+		float PhysicsSlopeSlidiness;
+		float PhysicsWallBounce;
+		float PhysicsWallFriction;
+		bool PhysicsHasCollisionTrigger;
+		UnityEngine_CoreModule::UnityEngine::GameObject* m_Trigger;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_ExternalForce;
+		IL2CPP::Array<UnityEngine_CoreModule::UnityEngine::Vector3>* m_SmoothForceFrame;
+		bool m_Slide;
+		bool m_SlideFast;
+		float m_SlideFallSpeed;
+		float m_OnSteepGroundSince;
+		float m_SlopeSlideSpeed;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_PredictedPos;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_PrevPos;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_PrevDir;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_NewDir;
+		float m_ForceImpact;
+		float m_ForceMultiplier;
+		UnityEngine_CoreModule::UnityEngine::Vector3 CapsuleBottom;
+		UnityEngine_CoreModule::UnityEngine::Vector3 CapsuleTop;
+		float m_SkinWidth;
+		UnityEngine_CoreModule::UnityEngine::Transform* m_Platform;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_PositionOnPlatform;
+		float m_LastPlatformAngle;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_LastPlatformPos;
+		float m_NormalHeight;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_NormalCenter;
+		float m_CrouchHeight;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_CrouchCenter;
+		float m_AnimalHeight;
+		float m_AnimalRadius;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_AnimalCenter;
+		Assembly_CSharp::Block* b;
+		Assembly_CSharp::Block* bUp;
+		int32_t currBlockType;
+		UnityEngine_CoreModule::UnityEngine::Transform* myTransform;
+		bool check_m_Grounded;
+		IL2CPP::Array<UnityEngine_CoreModule::UnityEngine::Vector3>* vecData;
+		int32_t vecDataPos;
+		Assembly_CSharp::vp_FPPlayerEventHandler* m_Player;
+		float maxspeed;
+		UnityEngine_CoreModule::UnityEngine::Vector3 m_PrevPos_;
+		int32_t m_PosError;
+		UnityEngine_CoreModule::UnityEngine::Vector3 oldPos;
+		float lastcheck;
+		void ClearPos(float x, float y, float z);
+		bool get_Grounded();
+		bool get_HeadContact();
+		UnityEngine_CoreModule::UnityEngine::Vector3 get_GroundNormal();
+		float get_GroundAngle();
+		UnityEngine_CoreModule::UnityEngine::Transform* get_GroundTransform();
+		UnityEngine_CoreModule::UnityEngine::Vector3 get_SmoothPosition();
+		UnityEngine_CoreModule::UnityEngine::Vector3 get_Velocity();
+		UnityEngine_PhysicsModule::UnityEngine::CharacterController* get_CharacterController();
+		Assembly_CSharp::vp_FPPlayerEventHandler* get_Player();
+		void Awake();
+		void Start();
+		void Update();
+		void UpdateMove();
+		void FixedUpdate();
+		void UpdateMotor();
+		void UpdateThrottleWalk();
+		void UpdateThrottleFree();
+		void UpdateJump();
+		void UpdateJetpack();
+		void UpdateAnimal();
+		void UpdateJumpForceWalk();
+		void UpdateJetpackForce();
+		void UpdateJumpForceFree();
+		void UpdateForces();
+		void UpdateSliding();
+		void FixedMove();
+		void SmoothMove();
+		void UpdateCollisions();
+		void UpdatePlatformMove();
+		void UpdateSlopeFactor();
+		void SetPosition(UnityEngine_CoreModule::UnityEngine::Vector3 position);
+		void AddForceInternal(UnityEngine_CoreModule::UnityEngine::Vector3 force);
+		void AddForce(float x, float y, float z);
+		void AddForce(UnityEngine_CoreModule::UnityEngine::Vector3 force);
+		void AddSoftForce(UnityEngine_CoreModule::UnityEngine::Vector3 force, float frames);
+		void StopSoftForce();
+		void Stop();
+		void DeflectDownForce();
+		void DeflectUpForce();
+		void DeflectHorizontalForce();
+		void OnControllerColliderHit(UnityEngine_PhysicsModule::UnityEngine::ControllerColliderHit* hit);
+		bool CanStart_Jump();
+		bool CanStart_Jetpack();
+		bool CanStart_Walk();
+		void OnStart_Jump();
+		void OnStart_Jetpack();
+		void OnStop_Jump();
+		bool CanStop_Crouch();
+		bool CanStop_Animal();
+		void OnStart_Crouch();
+		void OnStart_Animal();
+		void OnStop_Crouch();
+		void OnStop_Animal();
+		void OnMessage_ForceImpact(UnityEngine_CoreModule::UnityEngine::Vector3 force);
+		void OnMessage_Stop();
+		UnityEngine_CoreModule::UnityEngine::Vector3 get_OnValue_Position();
+		void set_OnValue_Position(UnityEngine_CoreModule::UnityEngine::Vector3 value);
+		UnityEngine_CoreModule::UnityEngine::Transform* get_OnValue_Platform();
+		UnityEngine_CoreModule::UnityEngine::Vector2 get_OnValue_InputMoveVector();
+		void set_OnValue_InputMoveVector(UnityEngine_CoreModule::UnityEngine::Vector2 value);
+		void CheckValue();
+		void _ctor();
+	};
+}
+

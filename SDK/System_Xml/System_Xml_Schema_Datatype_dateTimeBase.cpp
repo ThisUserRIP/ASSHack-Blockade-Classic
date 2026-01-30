@@ -1,0 +1,147 @@
+#include "System_Xml_Schema_Datatype_dateTimeBase.h"
+
+IL2CPP::Il2CppClass* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::GetIl2CppClass()
+{
+	static IL2CPP::Il2CppClass* il2cppclass = GetIL2CppClass("System.Xml.dll", "System.Xml.Schema", "Datatype_dateTimeBase");
+	return il2cppclass;
+}
+mscorlib::System::Type* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::GetIl2CppType()
+{
+	static mscorlib::System::Type* il2cpptype = mscorlib::System::Type::internal_from_handle((intptr_t)il2cpp_class_get_type(GetIl2CppClass()));
+	return il2cpptype;
+}
+System_Xml::System::Xml::Schema::XmlValueConverter* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::CreateValueConverter(System_Xml::System::Xml::Schema::XmlSchemaType* schemaType)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "CreateValueConverter", std::vector<std::string> { "System.Xml.Schema.XmlSchemaType" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)schemaType;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	return (System_Xml::System::Xml::Schema::XmlValueConverter*)returnValue;
+}
+System_Xml::System::Xml::Schema::FacetsChecker* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::get_FacetsChecker()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_FacetsChecker");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (System_Xml::System::Xml::Schema::FacetsChecker*)returnValue;
+}
+System_Xml::System::Xml::Schema::XmlTypeCode System_Xml::System::Xml::Schema::Datatype_dateTimeBase::get_TypeCode()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_TypeCode");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		System_Xml::System::Xml::Schema::XmlTypeCode ret;
+		std::memset(&ret, 0, sizeof(System_Xml::System::Xml::Schema::XmlTypeCode));
+		return ret;
+	}
+	return static_cast<System_Xml::System::Xml::Schema::XmlTypeCode>(*(System_Xml::System::Xml::Schema::XmlTypeCode*)il2cpp_object_unbox(returnValue));
+}
+void System_Xml::System::Xml::Schema::Datatype_dateTimeBase::_ctor(System_Xml::System::Xml::Schema::XsdDateTimeFlags dateTimeFlags)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".ctor", std::vector<std::string> { "System.Xml.Schema.XsdDateTimeFlags" });
+	intptr_t* params = new intptr_t[1];
+	params[0] = (intptr_t)&dateTimeFlags;
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+}
+mscorlib::System::Type* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::get_ValueType()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_ValueType");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (mscorlib::System::Type*)returnValue;
+}
+mscorlib::System::Type* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::get_ListValueType()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_ListValueType");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	return (mscorlib::System::Type*)returnValue;
+}
+System_Xml::System::Xml::Schema::XmlSchemaWhiteSpace System_Xml::System::Xml::Schema::Datatype_dateTimeBase::get_BuiltInWhitespaceFacet()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_BuiltInWhitespaceFacet");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		System_Xml::System::Xml::Schema::XmlSchemaWhiteSpace ret;
+		std::memset(&ret, 0, sizeof(System_Xml::System::Xml::Schema::XmlSchemaWhiteSpace));
+		return ret;
+	}
+	return static_cast<System_Xml::System::Xml::Schema::XmlSchemaWhiteSpace>(*(System_Xml::System::Xml::Schema::XmlSchemaWhiteSpace*)il2cpp_object_unbox(returnValue));
+}
+System_Xml::System::Xml::Schema::RestrictionFlags System_Xml::System::Xml::Schema::Datatype_dateTimeBase::get_ValidRestrictionFlags()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "get_ValidRestrictionFlags");
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		System_Xml::System::Xml::Schema::RestrictionFlags ret;
+		std::memset(&ret, 0, sizeof(System_Xml::System::Xml::Schema::RestrictionFlags));
+		return ret;
+	}
+	return static_cast<System_Xml::System::Xml::Schema::RestrictionFlags>(*(System_Xml::System::Xml::Schema::RestrictionFlags*)il2cpp_object_unbox(returnValue));
+}
+int32_t System_Xml::System::Xml::Schema::Datatype_dateTimeBase::Compare(mscorlib::System::Object* value1, mscorlib::System::Object* value2)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "Compare", std::vector<std::string> { "System.Object", "System.Object" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[2];
+	params[0] = (intptr_t)value1;
+	params[1] = (intptr_t)value2;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	if (returnValue == nullptr)
+	{
+		int32_t ret;
+		std::memset(&ret, 0, sizeof(int32_t));
+		return ret;
+	}
+	return static_cast<int32_t>(*(int32_t*)il2cpp_object_unbox(returnValue));
+}
+mscorlib::System::Exception* System_Xml::System::Xml::Schema::Datatype_dateTimeBase::TryParseValue(mscorlib::System::String* s, System_Xml::System::Xml::XmlNameTable* nameTable, System_Xml::System::Xml::IXmlNamespaceResolver* nsmgr, mscorlib::System::Object& typedValue)
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), "TryParseValue", std::vector<std::string> { "System.String", "System.Xml.XmlNameTable", "System.Xml.IXmlNamespaceResolver", "System.Object&" });
+	const IL2CPP::MethodInfo* virtualAddress = il2cpp_object_get_virtual_method(this, address);
+	intptr_t* params = new intptr_t[4];
+	params[0] = (intptr_t)s;
+	params[1] = (intptr_t)nameTable;
+	params[2] = (intptr_t)nsmgr;
+	params[3] = (intptr_t)&typedValue;
+	Il2CppException* Il2CppException = nullptr;
+	IL2CPP::Il2CppObject* returnValue = il2cpp_runtime_invoke(virtualAddress, this, (void**)params, &Il2CppException);
+	delete [] params;
+	Il2CppExceptionMessage(Il2CppException);
+	return (mscorlib::System::Exception*)returnValue;
+}
+void System_Xml::System::Xml::Schema::Datatype_dateTimeBase::_cctor()
+{
+	static const IL2CPP::MethodInfo* address = GetIl2CppMethod(GetIl2CppClass(), ".cctor");
+	Il2CppException* Il2CppException = nullptr;
+	il2cpp_runtime_invoke(address, nullptr, nullptr, &Il2CppException);
+	Il2CppExceptionMessage(Il2CppException);
+}

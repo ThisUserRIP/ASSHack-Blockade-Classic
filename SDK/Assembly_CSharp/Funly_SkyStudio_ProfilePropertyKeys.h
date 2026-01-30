@@ -1,0 +1,168 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "..\mscorlib\System_Object.h"
+namespace mscorlib::System { struct String; };
+namespace System_Core::System::Collections::Generic { template <typename T> struct HashSet_1; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+
+namespace Assembly_CSharp::Funly::SkyStudio
+{
+	struct ProfilePropertyKeys : mscorlib::System::Object
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		struct StaticFields
+		{
+			mscorlib::System::String* SkyCubemapKey;
+			mscorlib::System::String* SkyUpperColorKey;
+			mscorlib::System::String* SkyMiddleColorKey;
+			mscorlib::System::String* SkyLowerColorKey;
+			mscorlib::System::String* SkyMiddleColorPositionKey;
+			mscorlib::System::String* HorizonTrasitionStartKey;
+			mscorlib::System::String* HorizonTransitionLengthKey;
+			mscorlib::System::String* HorizonStarScaleKey;
+			mscorlib::System::String* StarTransitionStartKey;
+			mscorlib::System::String* StarTransitionLengthKey;
+			mscorlib::System::String* SunColorKey;
+			mscorlib::System::String* SunTextureKey;
+			mscorlib::System::String* SunSizeKey;
+			mscorlib::System::String* SunRotationSpeedKey;
+			mscorlib::System::String* SunEdgeFeatheringKey;
+			mscorlib::System::String* SunColorIntensityKey;
+			mscorlib::System::String* SunLightColorKey;
+			mscorlib::System::String* SunLightIntensityKey;
+			mscorlib::System::String* SunPositionKey;
+			mscorlib::System::String* SunSpriteRowCountKey;
+			mscorlib::System::String* SunSpriteColumnCountKey;
+			mscorlib::System::String* SunSpriteItemCountKey;
+			mscorlib::System::String* SunSpriteAnimationSpeedKey;
+			mscorlib::System::String* MoonColorKey;
+			mscorlib::System::String* MoonTextureKey;
+			mscorlib::System::String* MoonSizeKey;
+			mscorlib::System::String* MoonRotationSpeedKey;
+			mscorlib::System::String* MoonEdgeFeatheringKey;
+			mscorlib::System::String* MoonColorIntensityKey;
+			mscorlib::System::String* MoonLightColorKey;
+			mscorlib::System::String* MoonLightIntensityKey;
+			mscorlib::System::String* MoonPositionKey;
+			mscorlib::System::String* MoonOrbitSpeedKey;
+			mscorlib::System::String* MoonSpriteRowCountKey;
+			mscorlib::System::String* MoonSpriteColumnCountKey;
+			mscorlib::System::String* MoonSpriteItemCountKey;
+			mscorlib::System::String* MoonSpriteAnimationSpeedKey;
+			mscorlib::System::String* StarBasicCubemapKey;
+			mscorlib::System::String* StarBasicTwinkleSpeedKey;
+			mscorlib::System::String* StarBasicTwinkleAmountKey;
+			mscorlib::System::String* StarBasicOpacityKey;
+			mscorlib::System::String* StarBasicTintColorKey;
+			mscorlib::System::String* StarBasicIntensityKey;
+			mscorlib::System::String* StarBasicExponentKey;
+			mscorlib::System::String* Star1SizeKey;
+			mscorlib::System::String* Star1DensityKey;
+			mscorlib::System::String* Star1TextureKey;
+			mscorlib::System::String* Star1ColorKey;
+			mscorlib::System::String* Star1TwinkleAmountKey;
+			mscorlib::System::String* Star1TwinkleSpeedKey;
+			mscorlib::System::String* Star1RotationSpeedKey;
+			mscorlib::System::String* Star1EdgeFeatheringKey;
+			mscorlib::System::String* Star1ColorIntensityKey;
+			mscorlib::System::String* Star1SpriteRowCountKey;
+			mscorlib::System::String* Star1SpriteColumnCountKey;
+			mscorlib::System::String* Star1SpriteItemCountKey;
+			mscorlib::System::String* Star1SpriteAnimationSpeedKey;
+			mscorlib::System::String* Star2SizeKey;
+			mscorlib::System::String* Star2DensityKey;
+			mscorlib::System::String* Star2TextureKey;
+			mscorlib::System::String* Star2ColorKey;
+			mscorlib::System::String* Star2TwinkleAmountKey;
+			mscorlib::System::String* Star2TwinkleSpeedKey;
+			mscorlib::System::String* Star2RotationSpeedKey;
+			mscorlib::System::String* Star2EdgeFeatheringKey;
+			mscorlib::System::String* Star2ColorIntensityKey;
+			mscorlib::System::String* Star2SpriteRowCountKey;
+			mscorlib::System::String* Star2SpriteColumnCountKey;
+			mscorlib::System::String* Star2SpriteItemCountKey;
+			mscorlib::System::String* Star2SpriteAnimationSpeedKey;
+			mscorlib::System::String* Star3SizeKey;
+			mscorlib::System::String* Star3DensityKey;
+			mscorlib::System::String* Star3TextureKey;
+			mscorlib::System::String* Star3ColorKey;
+			mscorlib::System::String* Star3TwinkleAmountKey;
+			mscorlib::System::String* Star3TwinkleSpeedKey;
+			mscorlib::System::String* Star3RotationSpeedKey;
+			mscorlib::System::String* Star3EdgeFeatheringKey;
+			mscorlib::System::String* Star3ColorIntensityKey;
+			mscorlib::System::String* Star3SpriteRowCountKey;
+			mscorlib::System::String* Star3SpriteColumnCountKey;
+			mscorlib::System::String* Star3SpriteItemCountKey;
+			mscorlib::System::String* Star3SpriteAnimationSpeedKey;
+			mscorlib::System::String* CloudNoiseTextureKey;
+			mscorlib::System::String* CloudDensityKey;
+			mscorlib::System::String* CloudSpeedKey;
+			mscorlib::System::String* CloudDirectionKey;
+			mscorlib::System::String* CloudHeightKey;
+			mscorlib::System::String* CloudColor1Key;
+			mscorlib::System::String* CloudColor2Key;
+			mscorlib::System::String* CloudFadePositionKey;
+			mscorlib::System::String* CloudFadeAmountKey;
+			mscorlib::System::String* CloudTextureTiling;
+			mscorlib::System::String* CloudCubemapNormalTextureKey;
+			mscorlib::System::String* CloudCubemapNormalLitColorKey;
+			mscorlib::System::String* CloudCubemapNormalShadowKey;
+			mscorlib::System::String* CloudCubemapNormalRotationSpeedKey;
+			mscorlib::System::String* CloudCubemapNormalAmbientIntensity;
+			mscorlib::System::String* CloudCubemapNormalHeightKey;
+			mscorlib::System::String* CloudCubemapNormalDoubleLayerRotationSpeedKey;
+			mscorlib::System::String* CloudCubemapNormalDoubleLayerHeightKey;
+			mscorlib::System::String* CloudCubemapNormalDoubleLayerCustomTextureKey;
+			mscorlib::System::String* CloudCubemapNormalDoubleLayerLitColorKey;
+			mscorlib::System::String* CloudCubemapNormalDoubleLayerShadowKey;
+			mscorlib::System::String* CloudCubemapTextureKey;
+			mscorlib::System::String* CloudCubemapRotationSpeedKey;
+			mscorlib::System::String* CloudCubemapTintColorKey;
+			mscorlib::System::String* CloudCubemapHeightKey;
+			mscorlib::System::String* CloudCubemapDoubleLayerRotationSpeedKey;
+			mscorlib::System::String* CloudCubemapDoubleLayerHeightKey;
+			mscorlib::System::String* CloudCubemapDoubleLayerCustomTextureKey;
+			mscorlib::System::String* CloudCubemapDoubleLayerTintColorKey;
+			mscorlib::System::String* FogDensityKey;
+			mscorlib::System::String* FogColorKey;
+			mscorlib::System::String* FogLengthKey;
+			mscorlib::System::String* FogSyncWithGlobal;
+			mscorlib::System::String* RainNearIntensityKey;
+			mscorlib::System::String* RainFarIntensityKey;
+			mscorlib::System::String* RainNearSpeedKey;
+			mscorlib::System::String* RainFarSpeedKey;
+			mscorlib::System::String* RainSoundVolumeKey;
+			mscorlib::System::String* RainSoundKey;
+			mscorlib::System::String* RainTintColorKey;
+			mscorlib::System::String* RainWindTurbulence;
+			mscorlib::System::String* RainWindTurbulenceSpeed;
+			mscorlib::System::String* RainNearTextureKey;
+			mscorlib::System::String* RainFarTextureKey;
+			mscorlib::System::String* RainNearTextureTiling;
+			mscorlib::System::String* RainFarTextureTiling;
+			mscorlib::System::String* RainSplashMaxConcurrentKey;
+			mscorlib::System::String* RainSplashAreaStartKey;
+			mscorlib::System::String* RainSplashAreaLengthKey;
+			mscorlib::System::String* RainSplashScaleKey;
+			mscorlib::System::String* RainSplashScaleVarienceKey;
+			mscorlib::System::String* RainSplashIntensityKey;
+			mscorlib::System::String* RainSplashSurfaceOffsetKey;
+			mscorlib::System::String* RainSplashTintColorKey;
+			mscorlib::System::String* LightningProbabilityKey;
+			mscorlib::System::String* LightningStrikeCoolDown;
+			mscorlib::System::String* LightningIntensityKey;
+			mscorlib::System::String* LightningTintColorKey;
+			mscorlib::System::String* ThunderSoundVolumeKey;
+			mscorlib::System::String* ThunderSoundDelayKey;
+		};
+		static StaticFields* GetStaticFields() { return reinterpret_cast<StaticFields*>(GetIl2CppClass()->static_fields); }
+		static System_Core::System::Collections::Generic::HashSet_1<mscorlib::System::String>* GetPropertyKeysSet();
+		void _ctor();
+	};
+}
+

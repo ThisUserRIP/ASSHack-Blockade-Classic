@@ -1,0 +1,46 @@
+#pragma once
+namespace UnityEngine_IMGUIModule::UnityEngine
+{
+	enum struct EventType : int32_t
+	{
+		MouseDown = static_cast<int32_t>(0x0),
+		MouseUp = static_cast<int32_t>(0x1),
+		MouseMove = static_cast<int32_t>(0x2),
+		MouseDrag = static_cast<int32_t>(0x3),
+		KeyDown = static_cast<int32_t>(0x4),
+		KeyUp = static_cast<int32_t>(0x5),
+		ScrollWheel = static_cast<int32_t>(0x6),
+		Repaint = static_cast<int32_t>(0x7),
+		Layout = static_cast<int32_t>(0x8),
+		DragUpdated = static_cast<int32_t>(0x9),
+		DragPerform = static_cast<int32_t>(0xA),
+		DragExited = static_cast<int32_t>(0xF),
+		Ignore = static_cast<int32_t>(0xB),
+		Used = static_cast<int32_t>(0xC),
+		ValidateCommand = static_cast<int32_t>(0xD),
+		ExecuteCommand = static_cast<int32_t>(0xE),
+		ContextClick = static_cast<int32_t>(0x10),
+		MouseEnterWindow = static_cast<int32_t>(0x14),
+		MouseLeaveWindow = static_cast<int32_t>(0x15),
+		TouchDown = static_cast<int32_t>(0x1E),
+		TouchUp = static_cast<int32_t>(0x1F),
+		TouchMove = static_cast<int32_t>(0x20),
+		TouchEnter = static_cast<int32_t>(0x21),
+		TouchLeave = static_cast<int32_t>(0x22),
+		TouchStationary = static_cast<int32_t>(0x23),
+		mouseDown = static_cast<int32_t>(0x0),
+		mouseUp = static_cast<int32_t>(0x1),
+		mouseMove = static_cast<int32_t>(0x2),
+		mouseDrag = static_cast<int32_t>(0x3),
+		keyDown = static_cast<int32_t>(0x4),
+		keyUp = static_cast<int32_t>(0x5),
+		scrollWheel = static_cast<int32_t>(0x6),
+		repaint = static_cast<int32_t>(0x7),
+		layout = static_cast<int32_t>(0x8),
+		dragUpdated = static_cast<int32_t>(0x9),
+		dragPerform = static_cast<int32_t>(0xA),
+		ignore = static_cast<int32_t>(0xB),
+		used = static_cast<int32_t>(0xC),
+	};
+}
+

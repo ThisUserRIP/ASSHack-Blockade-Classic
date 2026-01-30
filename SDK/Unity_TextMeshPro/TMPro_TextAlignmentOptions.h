@@ -1,0 +1,45 @@
+#pragma once
+namespace Unity_TextMeshPro::TMPro
+{
+	enum struct TextAlignmentOptions : int32_t
+	{
+		TopLeft = static_cast<int32_t>(0x101),
+		Top = static_cast<int32_t>(0x102),
+		TopRight = static_cast<int32_t>(0x104),
+		TopJustified = static_cast<int32_t>(0x108),
+		TopFlush = static_cast<int32_t>(0x110),
+		TopGeoAligned = static_cast<int32_t>(0x120),
+		Left = static_cast<int32_t>(0x201),
+		Center = static_cast<int32_t>(0x202),
+		Right = static_cast<int32_t>(0x204),
+		Justified = static_cast<int32_t>(0x208),
+		Flush = static_cast<int32_t>(0x210),
+		CenterGeoAligned = static_cast<int32_t>(0x220),
+		BottomLeft = static_cast<int32_t>(0x401),
+		Bottom = static_cast<int32_t>(0x402),
+		BottomRight = static_cast<int32_t>(0x404),
+		BottomJustified = static_cast<int32_t>(0x408),
+		BottomFlush = static_cast<int32_t>(0x410),
+		BottomGeoAligned = static_cast<int32_t>(0x420),
+		BaselineLeft = static_cast<int32_t>(0x801),
+		Baseline = static_cast<int32_t>(0x802),
+		BaselineRight = static_cast<int32_t>(0x804),
+		BaselineJustified = static_cast<int32_t>(0x808),
+		BaselineFlush = static_cast<int32_t>(0x810),
+		BaselineGeoAligned = static_cast<int32_t>(0x820),
+		MidlineLeft = static_cast<int32_t>(0x1001),
+		Midline = static_cast<int32_t>(0x1002),
+		MidlineRight = static_cast<int32_t>(0x1004),
+		MidlineJustified = static_cast<int32_t>(0x1008),
+		MidlineFlush = static_cast<int32_t>(0x1010),
+		MidlineGeoAligned = static_cast<int32_t>(0x1020),
+		CaplineLeft = static_cast<int32_t>(0x2001),
+		Capline = static_cast<int32_t>(0x2002),
+		CaplineRight = static_cast<int32_t>(0x2004),
+		CaplineJustified = static_cast<int32_t>(0x2008),
+		CaplineFlush = static_cast<int32_t>(0x2010),
+		CaplineGeoAligned = static_cast<int32_t>(0x2020),
+		Converted = static_cast<int32_t>(0xFFFF),
+	};
+}
+

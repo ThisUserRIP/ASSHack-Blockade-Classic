@@ -1,0 +1,2 @@
+#include "System_Collections_Generic_ShortEnumEqualityComparer_1.h"
+

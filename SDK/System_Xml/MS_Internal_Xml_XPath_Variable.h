@@ -1,0 +1,25 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "MS_Internal_Xml_XPath_AstNode.h"
+namespace mscorlib::System { struct String; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+#include "MS_Internal_Xml_XPath_AstNode_AstType.h"
+#include "System_Xml_XPath_XPathResultType.h"
+
+namespace System_Xml::MS::Internal::Xml::XPath
+{
+	struct Variable : System_Xml::MS::Internal::Xml::XPath::AstNode
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		mscorlib::System::String* localname;
+		mscorlib::System::String* prefix;
+		void _ctor(mscorlib::System::String* name, mscorlib::System::String* prefix);
+		System_Xml::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
+		System_Xml::System::Xml::XPath::XPathResultType get_ReturnType();
+	};
+}
+

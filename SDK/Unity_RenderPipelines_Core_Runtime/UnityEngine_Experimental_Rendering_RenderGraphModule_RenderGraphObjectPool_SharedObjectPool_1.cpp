@@ -1,0 +1,2 @@
+#include "UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraphObjectPool_SharedObjectPool_1.h"
+

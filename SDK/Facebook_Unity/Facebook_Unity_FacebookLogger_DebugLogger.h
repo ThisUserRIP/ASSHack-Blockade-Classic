@@ -1,0 +1,24 @@
+#pragma once
+#include "..\..\IL2CPP\il2cpp-extern-functions.h"
+#include "..\mscorlib\System_Type.h"
+namespace mscorlib::System { struct Type; };
+#include "..\mscorlib\System_Object.h"
+#include "Facebook_Unity_FacebookLogger.h"
+namespace Facebook_Unity::Facebook::Unity { struct FacebookLogger; };
+#include "..\mscorlib\System_Void.h"
+namespace mscorlib::System { struct Void; };
+namespace mscorlib::System { struct String; };
+
+namespace Facebook_Unity::Facebook::Unity
+{
+	struct FacebookLogger_DebugLogger : mscorlib::System::Object
+	{
+		static IL2CPP::Il2CppClass* GetIl2CppClass();
+		static mscorlib::System::Type* GetIl2CppType();
+		void _ctor();
+		void Log(mscorlib::System::String* msg);
+		void Info(mscorlib::System::String* msg);
+		void Warn(mscorlib::System::String* msg);
+	};
+}
+
