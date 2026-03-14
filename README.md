@@ -65,4 +65,4 @@ Note: XHideDll and API_OFF bypasses are built-in.
 - **Use at your own risk.**
 - **The author (ThisUserRIP) is not responsible for bans, account losses, game crashes, EAC detections, or any other consequences.**
 - **Your accounts will most likely be permanently banned if detected.**
-- **For educational and research purposes only. Use exclusively in isolated virtual machines or authorized security testing environments.**
+- **For educational and research purposes only.**
